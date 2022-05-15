@@ -50,3 +50,5 @@ debería-evitar-cualquier-situación-de-tentación
 el-momento-de-la-revelación
 la-última-visita
 una-última-advertencia
+retroalimentación
+lista-de-verificación
