@@ -14,9 +14,16 @@ documentclass: book
 
 > El método EasyPeasy para dejar la pornografía. Deja el porno de manera rápida, indolora, sin usar el método de fuerza de voluntad y sin sentirte privado.
 
-Audiolibro [(YouTube)](https://www.youtube.com/watch?v=ZktxO6adTnI) [(MP3)](https://onedrive.live.com/?authkey=%21AKIwfnK6Sjchng8&cid=3961F5C89581C375&id=3961F5C89581C375%21256774&parId=3961F5C89581C375%21256773&o=OneUp&sw=bypassConfig) _**(Ambos están en inglés)**_
+**Acerca de nosotros:**
+
+* EasyPeasy por Fraser Patterson | https://easypeasymethod.org/
+* Traducción al español por @NegroBienDespierto | Su página: https://www.facebook.com/NegroBienDespierto/
+* Revisado por adolfovalle | Su página: https://github.com/adolfovalle
+* Conversión a RMD por porog | Su página: https://www.youtube.com/channel/UCw0bSPMyQ3bL_8Ejf_DLFQg
 
 <span style = "font-size: x-large;">_**¡NO TE SALTES NINGÚN CAPÍTULO!**_</span>
+
+Audiolibro [(YouTube)](https://www.youtube.com/watch?v=ZktxO6adTnI) [(MP3)](https://onedrive.live.com/?authkey=%21AKIwfnK6Sjchng8&cid=3961F5C89581C375&id=3961F5C89581C375%21256774&parId=3961F5C89581C375%21256773&o=OneUp&sw=bypassConfig) _**(Ambos están en inglés)**_
 
 ¡Hola! Soy Dom, del equipo de traducción de EasyPeasy. Esta traducción se hizo tomando como base la versión lanzada por _Hackauthors²_ el 16 de septiembre de 2021. Esta nueva versión incluye notas personales referentes a los proyectos del autor, así como la idea de reescribir la versión en inglés de EasyPeasy. Dado que estas notas no competen a la traducción, te pedimos por favor, darle una visita al [sitio original](https://easypeasymethod.org/) si deseas checar estas notas, así como para leer la versión original de este libro si gustas.
 

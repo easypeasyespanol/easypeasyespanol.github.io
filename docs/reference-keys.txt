@@ -52,3 +52,5 @@ la-última-visita
 una-última-advertencia
 retroalimentación
 lista-de-verificación
+ayuda-a-aquellos-que-se-están-hundiendo
+consejos-para-los-no-usuarios
