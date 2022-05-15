@@ -1,4 +1,0 @@
-bookdown::gitbook:
-  config:
-    fontsettings:
-      theme: night
