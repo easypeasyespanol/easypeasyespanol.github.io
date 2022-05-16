@@ -6,9 +6,13 @@ site: bookdown::bookdown_site
 description: "El método EasyPeasy para dejar la pornografía."
 documentclass: book
 lang: es
+url: 'https\://easypeasyespanol.github.io/'
+cover-image: "img-cover.png"
 ---
 
 # Introducción
+
+![Imagen de portada](img-cover.png){width=45% height=45%}\
 
 El método EasyPeasy para dejar la pornografía. Deja el porno de manera rápida, indolora, sin usar el método de fuerza de voluntad y sin sentirte privado.
 
@@ -18,12 +22,13 @@ El método EasyPeasy para dejar la pornografía. Deja el porno de manera rápida
 
 * EasyPeasy por **Fraser Patterson**
     * Su página: https://easypeasymethod.org/
-* Traducción al español por **@NegroBienDespierto**
+* Traducción al español por **NegroBienDespierto**
     * Su página: https://www.facebook.com/NegroBienDespierto/
 * Revisado por **adolfovalle**
     * Su página: https://github.com/adolfovalle
 * Layout rediseñado y reescrito en R Markdown por **porog**
     * Su página: https://www.youtube.com/channel/UCw0bSPMyQ3bL_8Ejf_DLFQg
+* Imagen de portada por **Allan Gomes**
 
 <hr>
 
