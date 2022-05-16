@@ -5,14 +5,14 @@ date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 description: "El método EasyPeasy para dejar la pornografía."
 documentclass: book
-#output:
-  #::gitbook: default
-  #bookdown::pdf_book: default
+lang: es
 ---
 
 # Introducción
 
 El método EasyPeasy para dejar la pornografía. Deja el porno de manera rápida, indolora, sin usar el método de fuerza de voluntad y sin sentirte privado.
+
+<span style = "font-size: x-large;">**[PDF](easypeasyespanol.pdf) | [EPUB](easypeasyespanol.epub) | [TEX](easypeasyespanol.tex) | [GITHUB](https://github.com/easypeasyespanol/easypeasyespanol.github.io)**</span>
 
 **Acerca de nosotros:**
 
@@ -192,5 +192,3 @@ Hackauthor²
 > This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License. Code is GPLv3
 
 ![CC BY-SA](img-cc-by-sa.png)\
-
-<!-- If you need PDF output, uncomment bookdown::pdf_book above in YAML. You will need a LaTeX installation, e.g., https://yihui.name/tinytex/ -->
