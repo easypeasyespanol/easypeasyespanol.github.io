@@ -22,7 +22,7 @@ El método EasyPeasy para dejar la pornografía. Deja el porno de manera rápida
     * Su página: https://www.facebook.com/NegroBienDespierto/
 * Revisado por **adolfovalle**
     * Su página: https://github.com/adolfovalle
-* Sitio web, layout, y conversión creados por **porog** usando bookdown
+* Layout rediseñado y reescrito en R Markdown por **porog**
     * Su página: https://www.youtube.com/channel/UCw0bSPMyQ3bL_8Ejf_DLFQg
 
 <hr>
@@ -54,7 +54,7 @@ Considera si las siguientes preguntas se aplican en tu caso:
 * ¿Pasas una cantidad significativa de tiempo pensando en pornografía, incluso cuando no la estas consumiendo?
 * ¿Ver pornografía ha causado otras consecuencias negativas en tu vida personal y profesional? (Ejem: Llegar tarde al trabajo, tener un desempeño deficiente, tener relaciones desatendidas, problemas financieros, etc.)
 
-Si eres un usuario de pornografía que depende de ella para masturbarse o tener sexo, lo único que tienes que hacer es **seguir leyendo**. Si estás aquí por un ser amado, lo único que tienes que hacer es persuadirlo para que lea este libro. Pero de no poder persuadirlo, entonces lee el libro tú mismo. Entender el método te ayudará a poder llevar el mensaje a otras personas, evitando que incluso tus hijos empiecen. No te dejes engañar por el hecho de que no tienen acceso al porno ahora - **todos lo hacemos antes de engancharnos**.
+Si eres un usuario de pornografía que depende de ella para masturbarse o tener sexo, lo único que tienes que hacer es **seguir leyendo**. Si estás aquí por un ser amado, lo único que tienes que hacer es persuadirlo para que lea este libro. Pero de no poder persuadirlo, entonces lee el libro tú mismo. Entender el método te ayudará a poder llevar el mensaje a otras personas, evitando que incluso tus hijos empiecen. No te dejes engañar por el hecho de que no tienen acceso al porno ahora — **todos lo hacemos antes de engancharnos**.
 
 ## Acerca del libro {-}
 
@@ -64,17 +64,17 @@ Este libro es una versión reescrita de una adaptación reescrita del libro _“
 
 Cuando estás abriendo un candado, tienes que poner los números en el orden correcto. La adicción no es nada diferente. 
 
-Personalmente, la versión original de [Google Sites](https://sites.google.com/site/sites/system/errors/WebspaceNotFound?path=%2Fhackbookeasypeasy) (La que no fue escrita por mí) cambió mi vida. Si eres como la mayoría de la gente, descubriste la pornografía a una edad temprana y la seguiste usando desde entonces. Eso, hasta encontrarte con la abrumadora — y aun así censurada — literatura que advierte los peligros de esta. Así como yo, quizá hayas sobrevivido algunas largas rachas de días sin usarla, solo para terminar sucumbiendo a ilusorios impulsos. Así pues, tengo el gusto de comentarte que este método funciona completamente diferente, y es el único que funciona.
+Personalmente, la versión original de [_Google Sites_](https://sites.google.com/site/sites/system/errors/WebspaceNotFound?path=%2Fhackbookeasypeasy) (La que no fue escrita por mí) cambió mi vida. Si eres como la mayoría de la gente, descubriste la pornografía a una edad temprana y la seguiste usando desde entonces. Eso, hasta encontrarte con la abrumadora — y aun así censurada — literatura que advierte los peligros de esta. Así como yo, quizá hayas sobrevivido algunas largas rachas de días sin usarla, solo para terminar sucumbiendo a ilusorios impulsos. Así pues, tengo el gusto de comentarte que este método funciona completamente diferente, y es el único que funciona.
 
-O quizá hayas llegado a este libro por un compañero que está preocupado por ti, y eres escéptico. Antes que nada, gracias por darle un ojo, aunque sea. Desarrollare el funcionamiento de este método brevemente, pero primero, quiero que recuerdes la primera vez que viste pornografía. ¿Pensaste que regresarías a ese lugar durante el resto de tu vida? Según mis propios estudios informales sobre el tema (ósea, molestando a mis amigos para que lean este libro), EasyPeasy es igual de efectivo para los usuarios casuales como para los más adictos al porno. No es demasiado largo, con grandes posibilidades de grandes ganancias, así que te suplico, sigue leyendo. 
+O quizá hayas llegado a este libro por un compañero que está preocupado por ti, y eres escéptico. Antes que nada, gracias por darle un ojo, aunque sea. Desarrollare el funcionamiento de este método brevemente, pero primero, quiero que recuerdes la primera vez que viste pornografía. ¿Pensaste que regresarías a ese lugar durante el resto de tu vida? Según mis propios estudios informales sobre el tema (o sea, molestando a mis amigos para que lean este libro), EasyPeasy es igual de efectivo para los usuarios casuales como para los más adictos al porno. No es demasiado largo, con grandes posibilidades de grandes ganancias, así que te suplico, sigue leyendo. 
 
-El método descrito en este hackbook es:
+El método descrito en este _hackbook_ es:
 
 * Instantáneo. 
 * Igual de efectivo con usuarios casuales y profundamente adictos.
-* No causa ningún dolor de abstinencia.
+* No causa ningún _dolor de abstinencia_.
 * No requiere de fuerza de voluntad.
-* No requiere de ningún truco, ayuda o tratamiento de shock.
+* No requiere de ningún truco, ayuda o _tratamiento de shock_.
 * No te hará reemplazar esta adicción con otra, como fumar, beber alcohol o comer de más.
 * Permanente.
 
@@ -151,7 +151,7 @@ Con EasyPeasy, solo hay dos cuestiones por las cuales puedes fallar:
 
 **No llevar a cabo las instrucciones que se te dieron**. Algunos encuentran molesto que el libro sea tan dogmático con ciertas recomendaciones, como no dejar de usar de porno, o de no usar sustitutos. De hecho, no negaré el hecho de que hubo algunos que han logrado parar usando dichas artimañas, pero lo han logrado _a pesar de_, no gracias a dichas. Algunas personas pueden tener sexo en una hamaca, pero no es lo más fácil que digamos. Los números para abrir el candado de esta trampa están en este libro, pero deben de usarse en el orden correcto: _**yendo capitulo por capitulo, sin saltarse ninguno**_.
 
-**No entender del todo**. No des nada por sentado. Cuestiónate no solo lo contenido aquí, sino también tus creencias y todo lo que la sociedad te ha dicho acerca del sexo, el porno y las adicciones. Por ejemplo, aquellos que creen que solo es un hábito, pregúntate por qué otros hábitos - Los cuales son disfrutables - son fáciles de romper, mientras que un hábito que se siente horrible cuesta energía, tiempo y virilidad es tan difícil de romper. Para aquellos que creen que disfrutan del porno, pregúntate porque otras cosas que son infinitamente más disfrutables que el porno pueden ser tomadas o dejadas. ¿Por qué _necesitas_ del porno, además de sentirte asustado si no lo tienes?
+**No entender del todo**. No des nada por sentado. Cuestiónate no solo lo contenido aquí, sino también tus creencias y todo lo que la sociedad te ha dicho acerca del sexo, el porno y las adicciones. Por ejemplo, aquellos que creen que solo es un hábito, pregúntate por qué otros hábitos — los cuales son disfrutables — son fáciles de romper, mientras que un hábito que se siente horrible cuesta energía, tiempo y virilidad es tan difícil de romper. Para aquellos que creen que disfrutan del porno, pregúntate porque otras cosas que son infinitamente más disfrutables que el porno pueden ser tomadas o dejadas. ¿Por qué _necesitas_ del porno, además de sentirte asustado si no lo tienes?
 
 EasyPeasy te dará todo el conocimiento necesario acerca de lo fácil y disfrutable que es dejar el porno. Como muchos otros, uno de mis más grandes triunfos en la vida fue escapar de esta trampa. No hay necesidad de sentirse deprimido, al contrario, vas a conseguir aquello que todo usuario en el planeta desearía conseguir: **¡LIBERTAD!**
 

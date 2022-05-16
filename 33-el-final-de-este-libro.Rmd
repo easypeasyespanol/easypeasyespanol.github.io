@@ -31,6 +31,7 @@ Aquí hay un video donde explico que está sucediendo, y aquí está [la carta q
 https://youtu.be/MqNQppcaFB4
 
 _**Debo poner énfasis**_ en que no quiero ni necesito tu dinero. Pero se agradece el apoyo. Aun así, aquí pongo una lista de direcciones de cripto, las cuales utilizaré para enviar las cartas a escuelas:
+
 * Wownero (WOW): próximamente
 * Monero (XMR): solo ingresa _easypeasymethod.org_ (832m3v5m5Up6qQM4YbejN6Vre2AQS4fDd3ZG1QM2hZM39DG1iv1RPPkFuvwe37az4yCnKkN8dqcq3cUSRDHrLBgeSfi5Cpk)
 * Etherium (ETH): 0x1c5FCD3AF9C25f9302408Ec3CfAee5551E747571 
@@ -140,7 +141,7 @@ Si gustas contactarme, por favor ten en cuenta que estoy tratando de ser intenci
 Si gustas también puedes  
 <span style = "font-size: x-large;">[Suscribirte para recibir e-mails míos ocasionales](https://docs.google.com/forms/d/e/1FAIpQLSfi27XGmChe_qtu4fP6E6lNyjY8Ia_93TlfGbjbKgiI1VNdkg/viewform)</span>
 
-Estaría genial hacerte saber acerca de las actualizaciones que doy a este hackbook, así como de iniciativas potenciales que nos ayudaran a librar gente de la trampa (como lo de las cartas físicas que enviare a algunas escuelas) y algunos de mis otros proyectos (como https://preferences.org.au ).
+Estaría genial hacerte saber acerca de las actualizaciones que doy a este hackbook, así como de iniciativas potenciales que nos ayudaran a librar gente de la trampa (como lo de las cartas físicas que enviare a algunas escuelas) y algunos de mis otros proyectos (como https://preferences.org.au).
 
 Buenas vibras hermano
 
