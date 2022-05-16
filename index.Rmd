@@ -12,14 +12,20 @@ documentclass: book
 
 # Introducción
 
-> El método EasyPeasy para dejar la pornografía. Deja el porno de manera rápida, indolora, sin usar el método de fuerza de voluntad y sin sentirte privado.
+El método EasyPeasy para dejar la pornografía. Deja el porno de manera rápida, indolora, sin usar el método de fuerza de voluntad y sin sentirte privado.
 
 **Acerca de nosotros:**
 
-* EasyPeasy por Fraser Patterson | https://easypeasymethod.org/
-* Traducción al español por @NegroBienDespierto | Su página: https://www.facebook.com/NegroBienDespierto/
-* Revisado por adolfovalle | Su página: https://github.com/adolfovalle
-* Conversión a RMD por porog | Su página: https://www.youtube.com/channel/UCw0bSPMyQ3bL_8Ejf_DLFQg
+* EasyPeasy por **Fraser Patterson**
+    * Su página: https://easypeasymethod.org/
+* Traducción al español por **@NegroBienDespierto**
+    * Su página: https://www.facebook.com/NegroBienDespierto/
+* Revisado por **adolfovalle**
+    * Su página: https://github.com/adolfovalle
+* Sitio web, layout, y conversión creados por **porog** usando bookdown
+    * Su página: https://www.youtube.com/channel/UCw0bSPMyQ3bL_8Ejf_DLFQg
+
+<hr>
 
 <span style = "font-size: x-large;">_**¡NO TE SALTES NINGÚN CAPÍTULO!**_</span>
 
