@@ -23,7 +23,7 @@ header-includes:
 
 El método EasyPeasy para dejar la pornografía. Deja el porno de manera rápida, indolora, sin usar el método de fuerza de voluntad y sin sentirte privado.
 
-<span style = "font-size: x-large;">**[PDF](easypeasyespanol.pdf) | [EPUB](easypeasyespanol.epub) | [TEX](easypeasyespanol.tex) | [GITHUB](https://github.com/easypeasyespanol/easypeasyespanol.github.io)**</span>
+<span style = "font-size: x-large;">**[PDF](easypeasyespanol.pdf) | [EPUB](easypeasyespanol.epub)**</span>
 
 **Acerca de nosotros:**
 

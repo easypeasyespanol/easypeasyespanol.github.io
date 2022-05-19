@@ -9,7 +9,6 @@ bookdown::gitbook:
     download:
       - ["easypeasyespanol.pdf", "PDF"]
       - ["easypeasyespanol.epub", "EPUB"]
-      - ["easypeasyespanol.tex", "TEX"]
     fontsettings:
       theme: night
 pdf_document:
