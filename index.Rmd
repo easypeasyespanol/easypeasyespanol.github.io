@@ -5,6 +5,7 @@ date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 description: "El método EasyPeasy para dejar la pornografía."
 documentclass: book
+classoption: openany
 lang: es
 url: "https://easypeasyespanol.github.io/"
 cover-image: "img-cover.png"
