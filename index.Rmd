@@ -6,8 +6,14 @@ site: bookdown::bookdown_site
 description: "El método EasyPeasy para dejar la pornografía."
 documentclass: book
 lang: es
-url: 'https\://easypeasyespanol.github.io/'
+url: "https://easypeasyespanol.github.io/"
 cover-image: "img-cover.png"
+pdf-cover-image: "img-cover.png"
+header-includes:
+  - \usepackage{titling}
+  - \pretitle{\begin{center}
+    \includegraphics[width=7in,height=7in]{img-cover.png}\LARGE\\}
+  - \posttitle{\end{center}}
 ---
 
 # Introducción
@@ -30,7 +36,7 @@ El método EasyPeasy para dejar la pornografía. Deja el porno de manera rápida
     * Su página: https://www.youtube.com/channel/UCw0bSPMyQ3bL_8Ejf_DLFQg
 * Imagen de portada por **Allan Gomes**
 
-<hr>
+---
 
 <span style = "font-size: x-large;">_**¡NO TE SALTES NINGÚN CAPÍTULO!**_</span>
 

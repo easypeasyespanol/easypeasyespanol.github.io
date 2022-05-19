@@ -1,7 +1,19 @@
 \usepackage{booktabs}
 
-\usepackage[T1]{fontenc}
+%\usepackage[T1]{fontenc}
 \usepackage[a4paper, margin=2cm]{geometry}
+\usepackage{xcolor}
+
+%\usepackage{xesearch}
+%\SearchList{porno}{ohm}{porno}
+
+% blue links
+\let\oldurl\url
+\renewcommand\url{\renewcommand\UrlFont{\ttfamily\color{blue}}\oldurl}
+
+% blue links
+\let\oldhref\href
+\renewcommand{\href}[2]{\textcolor{blue}{\oldhref{#1}{#2}}}
 
 %\usepackage{titling}
 %\usepackage[sfdefault,scaled=.90]{FiraSans}

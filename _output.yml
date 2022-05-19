@@ -6,6 +6,10 @@ bookdown::gitbook:
       after: |
         <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
     edit: https://github.com/easypeasyespanol/easypeasyespanol.github.io/blob/main/%s
+    download:
+      - ["easypeasyespanol.pdf", "PDF"]
+      - ["easypeasyespanol.epub", "EPUB"]
+      - ["easypeasyespanol.tex", "TEX"]
     fontsettings:
       theme: night
 pdf_document:

@@ -120,13 +120,28 @@
 \def\languageshorthands#1{}
 \usepackage{booktabs}
 
-\usepackage[T1]{fontenc}
+%\usepackage[T1]{fontenc}
 \usepackage[a4paper, margin=2cm]{geometry}
+\usepackage{xcolor}
+
+%\usepackage{xesearch}
+%\SearchList{porno}{ohm}{porno}
+
+% blue links
+\let\oldurl\url
+\renewcommand\url{\renewcommand\UrlFont{\ttfamily\color{blue}}\oldurl}
+
+% blue links
+\let\oldhref\href
+\renewcommand{\href}[2]{\textcolor{blue}{\oldhref{#1}{#2}}}
 
 %\usepackage{titling}
 %\usepackage[sfdefault,scaled=.90]{FiraSans}
 %\usepackage{newtxsf}
 %\usepackage{ragged2e}
+\usepackage{titling}
+\pretitle{\begin{center} \includegraphics[width=7in,height=7in]{img-cover.png}\LARGE\\}
+\posttitle{\end{center}}
 \ifLuaTeX
   \usepackage{selnolig}  % disable illegal ligatures
 \fi
@@ -135,7 +150,7 @@
 
 \title{EasyPeasy (traducido al español)}
 \author{Equipo de traducción de EasyPeasy}
-\date{2022-05-16}
+\date{2022-05-19}
 
 \begin{document}
 \maketitle
@@ -192,6 +207,8 @@ El método EasyPeasy para dejar la pornografía. Deja el porno de manera rápida
 \item
   Imagen de portada por \textbf{Allan Gomes}
 \end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
 {\emph{\textbf{¡NO TE SALTES NINGÚN CAPÍTULO!}}}
 
