@@ -20,7 +20,7 @@ RUN \
   apt-get update \
     && \
   apt-get install -y -qq --no-install-recommends \
-    r-recommended=4.2.0-1.2004.0 \
+    r-recommended \
     r-base \
     apt-utils \
     software-properties-common \
