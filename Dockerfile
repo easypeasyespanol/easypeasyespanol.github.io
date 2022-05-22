@@ -7,6 +7,6 @@ ENV TZ=America/New_York
 
 RUN \
   cd /opt/easypeasyespanol.github.io \
-  mkdir /_book
-  cd /mkdir
-  touch a
+  mkdir /_book \
+  cd /mkdir \
+  touch a \
