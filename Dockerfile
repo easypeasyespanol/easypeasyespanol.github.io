@@ -84,7 +84,7 @@ RUN \
     && \
   export OSF_PROJECT=w95ne \
     && \
-  export PROJECT_PATH=/opt/auto-deploying-bookdown-example/ \
+  export PROJECT_PATH=/opt/easypeasyespanol.github.io/ \
     && \
   osf -p ${OSF_PROJECT} fetch data.tar.gz ${PROJECT_PATH}/data.tar.gz \
     && \
