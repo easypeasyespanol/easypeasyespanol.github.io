@@ -1,0 +1,27 @@
+name: Build and deploy to GitHub Pages
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+      - name: docker build
+        run:
+        |
+          docker build . --file Dockerfile --tag example
+          docker container create --name pages_build example:latest
+          docker cp pages_build:/opt/easypeasyespanol.github.io/_book ./_book
+      - name: deploy to github pages
+        uses: JamesIves/github-pages-deploy-action@3.7.1
+        with:
+          GITHUB_TOKEN: $
+          BRANCH: gh-pages # The branch the action should deploy to
+          FOLDER: _book # The folder the action should deploy
+          CLEAN: true # Automatically remove deleted files from the deploy branch
