@@ -1,106 +1,88 @@
-# Pull a base image
-FROM ubuntu:20.04
+FROM docker.io/ubuntu:16.04
 
-# Copy everything (minus anything specified in .dockerignore) into the image
-COPY . /opt/easypeasyespanol.github.io
+MAINTAINER Michael Green micke.green@gmail.com
 
-# To make installs not ask questions about timezones
-ARG DEBIAN_FRONTEND=noninteractive
-ENV TZ=America/New_York
+RUN apt-get update -qq \
+        && apt-get upgrade -y
 
-##############################
-# install base dependencies
-# - for R repository
-#   - dirmngr
-#   - gpg-agent
-# - for bookdown compilation
-#   - pandoc, pandoc-citeproc, texlive-base, texlive-latex-extra
-##############################
-RUN \
-  apt-get update \
-    && \
-  apt-get install -y -qq --no-install-recommends \
-    r-recommended \
-    r-base \
-    apt-utils \
-    software-properties-common \
-    curl \
-    g++-10 \
-    make\
-    cmake \
-    python3 \
-    python3-pip \
-    python3-virtualenv \
-    git \
-    dirmngr \
-    gpg-agent \
-    pandoc \
-    pandoc-citeproc \
-    texlive-base \
-    texlive-latex-extra \
-    lmodern \
-    && \
-  echo "installed base dependencies"
+RUN apt-get install -y --no-install-recommends \
+                apt-transport-https \
+                software-properties-common \
+                curl \
+                wget \
+                git \
+                libssl-dev \
+                libcurl4-gnutls-dev \
+                vim \
+        && rm -rf /var/lib/apt/lists/*
 
-########################################################
-# install r with whatever r packages we need/want
-# - source: https://rtask.thinkr.fr/installation-of-r-4-0-on-ubuntu-20-04-lts-and-tips-for-spatial-packages/
-########################################################
-RUN \
-  gpg --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys E298A3A825C0D65DFD57CBB651716619E084DAB9 \
-    && \
-  gpg -a --export E298A3A825C0D65DFD57CBB651716619E084DAB9 | apt-key add - \
-    && \
-  apt update \
-    && \
-  add-apt-repository 'deb https://cloud.r-project.org/bin/linux/ubuntu focal-cran40/' \
-    && \
-  apt-get install -y -q --no-install-recommends \
-    r-base=4.0.3-1.2004.0 \
-    r-base-dev \
-    libssl-dev \
-    libcurl4-openssl-dev \
-    libfreetype6-dev \
-    libmagick++-dev \
-    libxml2-dev \
-    libfontconfig1-dev \
-    cargo \
-    && \
-  R -e "install.packages('rmarkdown', dependencies=NA, repos='http://cran.rstudio.com/')" \
-    && \
-  R -e "install.packages('knitr', dependencies=NA, repos='http://cran.rstudio.com/')" \
-    && \
-  R -e "install.packages('bookdown', dependencies=NA, repos='http://cran.rstudio.com/')" \
-    && \
-  R -e "install.packages('tidyverse',dependencies=NA, repos='http://cran.rstudio.com/')" \
-    && \
-  R -e "install.packages('cowplot',dependencies=NA, repos='http://cran.rstudio.com/')" \
-    && \
-  echo "installed r and configured r environment"
+RUN apt-get clean && apt-get -y update && apt-get install -y locales && locale-gen en_US.UTF-8
+## Configure default locale, see https://github.com/rocker-org/rocker/issues/19
+RUN echo "en_US.UTF-8 UTF-8" >> /etc/locale.gen && locale-gen en_US.utf8 && /usr/sbin/update-locale LANG=en_US.UTF-8
+ENV LC_ALL en_US.UTF-8
+ENV LANG en_US.UTF-8
+
+RUN add-apt-repository "deb https://cloud.r-project.org/bin/linux/ubuntu $(lsb_release -cs)/" \
+        && apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E084DAB9
+
+RUN apt-get update \
+  && apt-get install -y --no-install-recommends \
+    software-properties-common ed less locales vim-tiny wget \
+    ca-certificates libcurl4-openssl-dev libssl-dev \
+  && add-apt-repository --enable-source --yes "ppa:marutter/rrutter" \
+  && add-apt-repository --enable-source --yes "ppa:marutter/c2d4u"
+
+RUN apt-get update -qq \
+        && apt-get install -y --no-install-recommends \
+                libxml2-dev \
+                r-base-dev \
+                r-recommended \
+                r-cran-devtools \
+                r-cran-ggplot2 \
+                r-cran-tidyr \
+                r-cran-dplyr \
+                r-cran-rmarkdown \
+                r-cran-readr \
+                r-cran-igraph \
+                r-cran-diagrammer \
+                r-cran-stringi \
+                r-cran-dbi \
+                pandoc \
+        && echo 'options(repos = c(CRAN = "https://cloud.r-project.org"), download.file.method = "libcurl")' >> /etc/R/Rprofile.site \
+        && rm -rf /var/lib/apt/lists/*
+
+# LAtex
+RUN apt-get update -qq \
+        && apt-get install -y --no-install-recommends \
+                texlive \
+                texlive-xetex \
+        && rm -rf /var/lib/apt/lists/*
+
+# Now install R and littler, and create a link for littler in /usr/local/bin
+# Also set a default CRAN repo, and make sure littler knows about it too
+# Note 1: we need wget here as the build env is too old to work with libcurl (we think, precise was)
+# Note 2: r-cran-docopt is not currently in c2d4u so we install from source
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    littler r-cran-stringr r-cran-rcpp r-cran-rstan \
+	&& echo 'options(repos = c(CRAN = "https://cran.rstudio.com/"), download.file.method = "libcurl")' >> /etc/R/Rprofile.site \
+	&& ln -s /usr/lib/R/site-library/littler/examples/install.r /usr/local/bin/install.r \
+	&& ln -s /usr/lib/R/site-library/littler/examples/install2.r /usr/local/bin/install2.r \
+	&& ln -s /usr/lib/R/site-library/littler/examples/installGithub.r /usr/local/bin/installGithub.r \
+	&& ln -s /usr/lib/R/site-library/littler/examples/testInstalled.r /usr/local/bin/testInstalled.r \
+	&& install.r docopt \
+	&& rm -rf /tmp/downloaded_packages/ /tmp/*.rds \
+	&& rm -rf /var/lib/apt/lists/*
+
+# Bookdown specifics
+RUN Rscript -e 'devtools::install_github("rstudio/bookdown")' \
+  && wget -c https://github.com/jgm/pandoc/releases/download/1.19.2.1/pandoc-1.19.2.1-1-amd64.deb \
+  && dpkg -i pandoc-1.19.2.1-1-amd64.deb
+
+# Extra packages for R
+RUN Rscript -e 'install.packages("tidyverse")' \
+    && Rscript -e 'devtools::install_github("DoktorMike/datools")' \
 
 
-########################################################
-# install osfclient, use to download project data
-########################################################
-RUN \
-  pip3 install osfclient \
-    && \
-  export OSF_PROJECT=w95ne \
-    && \
-  export PROJECT_PATH=/opt/easypeasyespanol.github.io/ \
-    && \
-  osf -p ${OSF_PROJECT} fetch data.tar.gz ${PROJECT_PATH}/data.tar.gz \
-    && \
-  tar -xzf ${PROJECT_PATH}/data.tar.gz -C ${PROJECT_PATH}/ \
-    && \
-  echo "download"
 
-########################################################
-# build supplemental material (will also run data analyses)
-########################################################
-RUN \
-  cd /opt/easypeasyespanol.github.io \
-    && \
-  ./build_book.sh \
-    && \
-  echo "compiled bookdown ebook"
+
+CMD ["R"]
