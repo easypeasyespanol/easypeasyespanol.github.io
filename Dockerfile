@@ -1,12 +1,8 @@
-FROM r-base:3.4.3
+FROM ubuntu:20.04
 
-RUN apt-get update \ 
-  && apt-get install -y \
-    pandoc \
-    texlive \
-    texlive-latex-extra \
-    texinfo \
-    imagemagick \
-  && rm -rf /var/lib/apt/lists/*
+COPY . /opt/easypeasyespanol.github.io
 
-RUN Rscript -e 'install.packages("bookdown")'
+ARG DEBIAN_FRONTEND=noninteractive
+ENV TZ=America/New_York
+
+ls -R > filename1
