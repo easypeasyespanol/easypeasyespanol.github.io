@@ -58,4 +58,16 @@ RUN \
     libmagick++-dev \
     libxml2-dev \
     libfontconfig1-dev \
-    cargo
+    cargo \
+    && \
+  R -e "install.packages('rmarkdown', dependencies=NA, repos='http://cran.rstudio.com/')" \
+    && \
+  R -e "install.packages('knitr', dependencies=NA, repos='http://cran.rstudio.com/')" \
+    && \
+  R -e "install.packages('bookdown', dependencies=NA, repos='http://cran.rstudio.com/')" \
+    && \
+  R -e "install.packages('tidyverse',dependencies=NA, repos='http://cran.rstudio.com/')" \
+    && \
+  R -e "install.packages('cowplot',dependencies=NA, repos='http://cran.rstudio.com/')" \
+    && \
+  echo "installed r and configured r environment"
