@@ -49,16 +49,8 @@ RUN \
 # - source: https://rtask.thinkr.fr/installation-of-r-4-0-on-ubuntu-20-04-lts-and-tips-for-spatial-packages/
 ########################################################
 RUN \
-  gpg --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys E298A3A825C0D65DFD57CBB651716619E084DAB9 \
-    && \
-  gpg -a --export E298A3A825C0D65DFD57CBB651716619E084DAB9 | apt-key add - \
-    && \
-  apt update \
-    && \
-  add-apt-repository 'deb https://cloud.r-project.org/bin/linux/ubuntu focal-cran40/' \
-    && \
   apt-get install -y -q --no-install-recommends \
-    r-base=4.0.3-1.2004.0 \
+    r-base \
     r-base-dev \
     libssl-dev \
     libcurl4-openssl-dev \
@@ -66,5 +58,4 @@ RUN \
     libmagick++-dev \
     libxml2-dev \
     libfontconfig1-dev \
-    cargo \
- 
+    cargo
