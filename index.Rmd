@@ -17,7 +17,7 @@ header-includes:
   - \posttitle{\end{center}}
 ---
 
-# Introducción
+# Introducción {#introduccion}
 
 ![Imagen de portada](img-cover.png){width=45% height=45%}\
 
