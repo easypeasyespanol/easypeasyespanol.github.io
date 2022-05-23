@@ -18,11 +18,13 @@ ENV TZ=America/New_York
 # - for bookdown compilation
 #   - pandoc, pandoc-citeproc, texlive-base, texlive-latex-extra
 ##############################
+
+RUN apt-get update && apt-get install -y --no-install-recommends apt-utils
+
 RUN \
   apt-get update \
     && \
   apt-get install -y -qq --no-install-recommends \
-    apt-utils \
     software-properties-common \
     curl \
     g++-10 \
