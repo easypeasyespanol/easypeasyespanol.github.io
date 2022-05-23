@@ -2,7 +2,7 @@ name: Build and deploy to GitHub Pages
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   build-and-deploy:
@@ -17,11 +17,11 @@ jobs:
         |
           docker build . --file Dockerfile --tag example
           docker container create --name pages_build example:latest
-          docker cp pages_build:/opt/easypeasyespanol.github.io .
+          docker cp pages_build:/opt/auto-deploying-bookdown-example/_book ./_book
       - name: deploy to github pages
         uses: JamesIves/github-pages-deploy-action@3.7.1
         with:
           GITHUB_TOKEN: $
           BRANCH: gh-pages # The branch the action should deploy to
-          FOLDER: . # The folder the action should deploy
+          FOLDER: _book # The folder the action should deploy
           CLEAN: true # Automatically remove deleted files from the deploy branch
