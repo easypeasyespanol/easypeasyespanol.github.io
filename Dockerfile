@@ -23,8 +23,8 @@ RUN \
     && \
   apt-get install -y -qq --no-install-recommends \
     software-properties-common \
-    curl\
-    g++-10=\
+    curl \
+    g++-10 \
     make\
     cmake \
     python3 \
