@@ -12,4 +12,5 @@ RUN \
   cd /opt/easypeasyespanol.github.io \
   mkdir /_book \
   cd /_book \
-  touch c
+  touch c \
+  echo "a" > ~/c
