@@ -73,12 +73,13 @@ RUN \
   echo "installed r and configured r environment"
 
 ########################################################
-# build supplemental material (will also run data analyses)
+# build book
 ########################################################
 RUN \
   cd /opt/easypeasyespanol.github.io \
     && \
-  ./build_book.sh \
+  Rscript -e "bookdown::render_book('index.Rmd', 'bookdown::gitbook')" \
+    && \
+  Rscript -e "bookdown::render_book('index.Rmd', 'bookdown::pdf_book')" \
     && \
   echo "compiled bookdown ebook"
-  
