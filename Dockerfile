@@ -40,6 +40,7 @@ RUN \
     pandoc-citeproc \
     texlive-base \
     texlive-latex-extra \
+    texlive-xetex \
     lmodern \
     && \
   echo "installed base dependencies"
