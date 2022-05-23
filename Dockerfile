@@ -6,7 +6,5 @@ ARG DEBIAN_FRONTEND=noninteractive
 ENV TZ=America/New_York
 
 RUN \
-  cd /opt/easypeasyespanol.github.io \
-  mkdir /_book \
-  cd /mkdir \
-  touch a \
+  cd /opt/easypeasyespanol.github.io/_book \
+  touch b \
