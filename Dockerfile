@@ -11,6 +11,6 @@ ENV TZ=America/New_York
 RUN \
   cd /opt/easypeasyespanol.github.io \
   mkdir /_book \
-  cd /_book \
+  #cd /_book \
   touch c \
   echo "a" > ~/c
