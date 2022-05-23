@@ -1,7 +1,7 @@
 #this file obtained from lalejini.com https://lalejini.com/2021/01/09/bookdown-autodeploy.html
 
 # Pull a base image
-FROM ubuntu:20.04
+FROM ubuntu:latest
 
 # Copy everything (minus anything specified in .dockerignore) into the image
 COPY . /opt/easypeasyespanol.github.io
@@ -23,14 +23,14 @@ RUN \
     && \
   apt-get install -y -qq --no-install-recommends \
     software-properties-common \
-    curl=7.68.0-1ubuntu2.4 \
-    g++-10=10.2.0-5ubuntu1~20.04 \
-    make=4.2.1-1.2 \
-    cmake=3.16.3-1ubuntu1  \
-    python3=3.8.2-0ubuntu2 \
+    curl\
+    g++-10=\
+    make\
+    cmake \
+    python3 \
     python3-pip \
     python3-virtualenv \
-    git=1:2.25.1-1ubuntu3 \
+    git \
     dirmngr \
     gpg-agent \
     pandoc \
