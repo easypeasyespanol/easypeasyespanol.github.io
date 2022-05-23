@@ -17,7 +17,7 @@ jobs:
         |
           docker build . --file Dockerfile --tag example
           docker container create --name pages_build example:latest
-          docker cp /opt/easypeasyespanol.github.io/_book ./_book
+          docker cp pages_build:/opt/easypeasyespanol.github.io/_book ./_book
       - name: deploy to github pages
         uses: JamesIves/github-pages-deploy-action@4.1.1
         with:
