@@ -1,7 +1,6 @@
 #source: https://lalejini.com/2021/01/09/bookdown-autodeploy.html
 
 # Pull a base image
-jyragxb'yu
 FROM ubuntu:latest
 
 # Copy everything (minus anything specified in .dockerignore) into the image
@@ -72,3 +71,14 @@ RUN \
   R -e "install.packages('cowplot',dependencies=NA, repos='http://cran.rstudio.com/')" \
     && \
   echo "installed r and configured r environment"
+
+########################################################
+# build supplemental material (will also run data analyses)
+########################################################
+RUN \
+  cd /opt/auto-deploying-bookdown-example \
+    && \
+  ./build_book.sh \
+    && \
+  echo "compiled bookdown ebook"
+  
