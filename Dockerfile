@@ -1,6 +1,7 @@
 #source: https://lalejini.com/2021/01/09/bookdown-autodeploy.html
 
 # Pull a base image
+jyragxb'yu
 FROM ubuntu:latest
 
 # Copy everything (minus anything specified in .dockerignore) into the image
