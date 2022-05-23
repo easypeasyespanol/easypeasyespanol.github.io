@@ -79,6 +79,8 @@ RUN \
 RUN \
   cd /opt/easypeasyespanol.github.io \
     && \
+  Rscript -e "install.packages('tinytex')" \
+    && \
   Rscript -e "bookdown::render_book('index.Rmd', 'bookdown::gitbook')" \
     && \
   #Rscript -e "bookdown::render_book('index.Rmd', 'bookdown::pdf_book')" \
