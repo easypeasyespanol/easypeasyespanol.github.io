@@ -76,7 +76,7 @@ RUN \
 # build supplemental material (will also run data analyses)
 ########################################################
 RUN \
-  cd /opt/auto-deploying-bookdown-example \
+  cd /opt/easypeasyespanol.github.io \
     && \
   ./build_book.sh \
     && \
