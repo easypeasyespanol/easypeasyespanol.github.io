@@ -42,7 +42,6 @@ RUN \
     texlive-latex-extra \
     texlive-xetex \
     lmodern \
-    ttf-mscorefonts-installer \
     && \
   echo "installed base dependencies"
 
@@ -73,16 +72,6 @@ RUN \
   R -e "install.packages('cowplot',dependencies=NA, repos='http://cran.rstudio.com/')" \
     && \
   echo "installed r and configured r environment"
-  
-########################################################
-# install fonts
-########################################################
-RUN \
-  fc-cache -f \
-    && \
-  fc-match Arial \
-    && \
-  echo "installed fonts"
 
 ########################################################
 # build book
