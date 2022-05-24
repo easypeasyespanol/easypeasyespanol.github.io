@@ -91,13 +91,3 @@ RUN \
   Rscript -e "bookdown::render_book('index.Rmd', 'bookdown::epub_book')" \
     && \
   echo "compiled bookdown ebook"
-
-########################################################
-# epub to pdf test
-########################################################
-RUN \
-  cd /opt/easypeasyespanol.github.io/_book \
-    && \
-  ebook-convert easypeasyespanol.epub easypeasyespanol2.pdf \
-    && \
-  echo "converted epub to pdf"
