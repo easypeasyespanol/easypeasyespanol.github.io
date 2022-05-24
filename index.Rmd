@@ -31,8 +31,6 @@ El método EasyPeasy para dejar la pornografía. Deja el porno de manera rápida
     * Su página: https://easypeasymethod.org/
 * Traducción al español por **NegroBienDespierto**
     * Su página: https://www.facebook.com/NegroBienDespierto/
-* Revisado por **adolfovalle**
-    * Su página: https://github.com/adolfovalle
 * Layout rediseñado y reescrito en R Markdown por **porog**
     * Su página: https://www.youtube.com/channel/UCw0bSPMyQ3bL_8Ejf_DLFQg
 * Imagen de portada por **Allan Gomes**
