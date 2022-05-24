@@ -96,7 +96,7 @@ RUN \
 # epub to pdf test
 ########################################################
 RUN \
-  cd /_book \
+  cd /opt/easypeasyespanol.github.io/_book \
     && \
   ebook-convert easypeasyespanol.epub easypeasyespanol2.pdf \
     && \
