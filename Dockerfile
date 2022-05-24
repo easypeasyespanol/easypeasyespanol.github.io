@@ -42,6 +42,7 @@ RUN \
     texlive-latex-extra \
     texlive-xetex \
     lmodern \
+    calibre \
     && \
   echo "installed base dependencies"
 
@@ -90,3 +91,13 @@ RUN \
   Rscript -e "bookdown::render_book('index.Rmd', 'bookdown::epub_book')" \
     && \
   echo "compiled bookdown ebook"
+
+########################################################
+# epub to pdf test
+########################################################
+RUN \
+  cd /_book \
+    && \
+  ebook-convert easypeasyespanol.epub easypeasyespanol2.pdf \
+    && \
+  echo "converted epub to pdf"
