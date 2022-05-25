@@ -10,6 +10,7 @@ jobs:
     steps:
       - name: checkout
         uses: actions/checkout@v3
+        working-directory: docs
         with:
           persist-credentials: false
       - name: docker build
@@ -20,7 +21,6 @@ jobs:
           docker cp pages_build:/opt/easypeasyespanol.github.io/_book ./_book
       - name: deploy to github pages
         uses: JamesIves/github-pages-deploy-action@4.1.1
-        working-directory: ./docs
         with:
           GITHUB_TOKEN: $
           BRANCH: gh-pages # The branch the action should deploy to
