@@ -42,8 +42,18 @@ RUN \
     texlive-latex-extra \
     texlive-xetex \
     lmodern \
+    ttf-mscorefonts-installer \
+    fontconfig \
     && \
   echo "installed base dependencies"
+  
+########################################################
+# setup fonts
+########################################################
+RUN \
+  fc-cache -fv \
+    && \
+  echo "installed fonts"
 
 ########################################################
 # install r with whatever r packages we need/want
