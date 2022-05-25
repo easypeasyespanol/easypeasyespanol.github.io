@@ -10,7 +10,7 @@ lang: es
 url: "https://easypeasyespanol.github.io/"
 cover-image: "img-cover.png"
 pdf-cover-image: "img-cover.png"
-mainfont: Sans
+#mainfont: Arial
 header-includes:
   - \usepackage{setspace}
   - \onehalfspacing
