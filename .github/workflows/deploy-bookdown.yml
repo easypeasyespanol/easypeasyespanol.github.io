@@ -13,7 +13,6 @@ jobs:
         with:
           persist-credentials: false
       - name: docker build
-        working-directory: docs
         run:
         |
           docker build . --file Dockerfile --tag example
