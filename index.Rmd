@@ -10,7 +10,7 @@ lang: es
 url: "https://easypeasyespanol.github.io/"
 cover-image: "img-cover.png"
 pdf-cover-image: "img-cover.png"
-mainfont: DejaVuSans
+mainfont: Arial
 header-includes:
   - \usepackage{setspace}
   - \onehalfspacing
@@ -18,7 +18,7 @@ header-includes:
   - \pretitle{\begin{center}
     \includegraphics[width=7in,height=7in]{img-cover.png}\LARGE\\}
   - \posttitle{\end{center}}
-  - \usepackage[fontsize=16pt]{scrextend}
+  - \usepackage[fontsize=17pt]{scrextend}
   - \usepackage{fancyhdr}
   - \pagestyle{plain}
   - \fancyhead{}
@@ -33,10 +33,11 @@ El método EasyPeasy para dejar la pornografía. Deja el porno de manera rápida
 
 <span style = "font-size: x-large;">**[PDF](easypeasyespanol.pdf) | [EPUB](easypeasyespanol.epub)**</span>
 
-**Acerca de nosotros:**
-
 * EasyPeasy por **Fraser Patterson**
     * Su página: https://easypeasymethod.org/
+
+**Acerca de los traductores:**
+
 * Traducción al español por **NegroBienDespierto**
     * Su página: https://www.facebook.com/NegroBienDespierto/
 * Layout rediseñado y reescrito en R Markdown por **porog**
@@ -47,7 +48,7 @@ El método EasyPeasy para dejar la pornografía. Deja el porno de manera rápida
 
 **Notas de los traductores**
 
-Puede que algunas frases y palabras parezcan algo raras al lector español. Preferimos ser fieles al estilo directo y coloquial de Allen Carr, ya que es importante comunicar sus ideas fielmente y su lenguaje se ha probado con eficacia. Con EasyPeasy tendrás la oportunidad de aclarar cualquier duda o temor que pueda tener en este asunto.
+Puede que algunas frases y palabras parezcan algo raras al lector español. Preferimos ser fieles al estilo directo y coloquial de Allen Carr, ya que es importante comunicar sus ideas fielmente y su lenguaje se ha probado con eficacia. Con EasyPeasy tendrás la oportunidad de aclarar cualquier duda o temor que puedas tener en el asunto de la pornografía.
 
 ---
 
