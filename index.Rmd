@@ -18,7 +18,7 @@ header-includes:
   - \pretitle{\begin{center}
     \includegraphics[width=7in,height=7in]{img-cover.png}\LARGE\\}
   - \posttitle{\end{center}}
-  - \usepackage[fontsize=17pt]{scrextend}
+  - \usepackage[fontsize=16pt]{scrextend}
   - \usepackage{fancyhdr}
   - \pagestyle{plain}
   - \fancyhead{}
