@@ -1,4 +1,4 @@
-#source: https://lalejini.com/2021/01/09/bookdown-autodeploy.html
+#source: https://lalejini.com/2021/01/09/bookdown-autodeploy.html (with several modifications)
 
 # Pull a base image
 FROM ubuntu:latest
@@ -44,16 +44,32 @@ RUN \
     lmodern \
     ttf-mscorefonts-installer \
     fontconfig \
+    cabextract \
     && \
   echo "installed base dependencies"
   
 ########################################################
 # setup fonts
+# - need the Arial font
 ########################################################
 RUN \
+  wget https://www.freedesktop.org/software/fontconfig/webfonts/webfonts.tar.gz \
+    && \
+  tar -xzf webfonts.tar.gz \
+    && \
+  cd msfonts/ \
+    && \
+  cabextract *.exe \
+    && \
   fc-cache -fv \
     && \
-  echo "installed fonts"
+  cp *.ttf *.TTF /usr/local/share/fonts/ \
+    && \
+  fc-cache -fv \
+    && \
+  echo "installed fonts" \
+    && \
+  fc-list
 
 ########################################################
 # install r with whatever r packages we need/want
