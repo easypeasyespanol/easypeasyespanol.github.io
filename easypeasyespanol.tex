@@ -112,29 +112,29 @@
 \setcounter{secnumdepth}{5}
 \usepackage{booktabs}
 
-%\usepackage[T1]{fontenc}
-\usepackage[a4paper,margin=2cm]{geometry}
+\usepackage[a4paper,margin=1.5cm]{geometry}
 \usepackage{xcolor}
 
-%\usepackage{xesearch}
-%\SearchList{porno}{ohm}{porno}
+% black page color
+\usepackage{pagecolor,lipsum}
+\pagecolor{black!85}
+
+% white page font
+\definecolor{pagefontcolor}{RGB}{230,230,230}
+\color{pagefontcolor}
 
 % blue links
+\definecolor{linkcolor}{RGB}{99,197,242}
+
 \let\oldurl\url
-\renewcommand\url{\renewcommand\UrlFont{\ttfamily\color{blue}}\oldurl}
+\renewcommand\url{\renewcommand\UrlFont{\ttfamily\color{linkcolor}}\oldurl}
 
-% blue links
 \let\oldhref\href
-\renewcommand{\href}[2]{\textcolor{blue}{\oldhref{#1}{#2}}}
+\renewcommand{\href}[2]{\textcolor{linkcolor}{\oldhref{#1}{#2}}}
 
-% less harsh word splitting
+% disable word splitting
 \hyphenpenalty=10000
 \raggedright
-
-%\usepackage{titling}
-%\usepackage[sfdefault,scaled=.90]{FiraSans}
-%\usepackage{newtxsf}
-%\usepackage{ragged2e}
 \usepackage{setspace}
 \onehalfspacing
 \usepackage{titling}
@@ -157,7 +157,7 @@
 
 \title{EasyPeasy (traducido al español)}
 \author{Equipo de traducción de EasyPeasy}
-\date{2022-06-21}
+\date{2022-06-22}
 
 \begin{document}
 \maketitle
