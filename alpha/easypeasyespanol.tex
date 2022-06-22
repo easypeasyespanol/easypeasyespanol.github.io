@@ -120,16 +120,17 @@
 \pagecolor{black!85}
 
 % white page font
-\definecolor{mainforecolor}{RGB}{180,180,180}
-\color{mainforecolor}
+\definecolor{pagefontcolor}{RGB}{215,215,215}
+\color{pagefontcolor}
 
 % blue links
+\definecolor{linkcolor}{RGB}{99,197,242}
+
 \let\oldurl\url
-\renewcommand\url{\renewcommand\UrlFont{\ttfamily\color{blue}}\oldurl}
+\renewcommand\url{\renewcommand\UrlFont{\ttfamily\color{linkcolor}}\oldurl}
 
-% blue links
 \let\oldhref\href
-\renewcommand{\href}[2]{\textcolor{blue}{\oldhref{#1}{#2}}}
+\renewcommand{\href}[2]{\textcolor{linkcolor}{\oldhref{#1}{#2}}}
 \usepackage{setspace}
 \onehalfspacing
 \usepackage{titling}
