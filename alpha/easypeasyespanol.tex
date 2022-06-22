@@ -131,6 +131,10 @@
 
 \let\oldhref\href
 \renewcommand{\href}[2]{\textcolor{linkcolor}{\oldhref{#1}{#2}}}
+
+% disable word splitting
+\hyphenpenalty=10000
+\raggedright
 \usepackage{setspace}
 \onehalfspacing
 \usepackage{titling}
