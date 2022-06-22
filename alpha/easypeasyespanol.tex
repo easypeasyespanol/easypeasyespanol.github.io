@@ -16,7 +16,7 @@
   \usepackage{unicode-math}
   \defaultfontfeatures{Scale=MatchLowercase}
   \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
-  \setmainfont[]{DejaVuSans}
+  \setmainfont[]{Arial}
 \fi
 % Use upquote if available, for straight quotes in verbatim environments
 \IfFileExists{upquote.sty}{\usepackage{upquote}}{}
@@ -112,12 +112,12 @@
 \setcounter{secnumdepth}{5}
 \usepackage{booktabs}
 
-%\usepackage[T1]{fontenc}
 \usepackage[a4paper,margin=2cm]{geometry}
 \usepackage{xcolor}
 
-%\usepackage{xesearch}
-%\SearchList{porno}{ohm}{porno}
+%black page color
+\usepackage{pagecolor,lipsum}
+\pagecolor{black!30}
 
 % blue links
 \let\oldurl\url
@@ -126,17 +126,12 @@
 % blue links
 \let\oldhref\href
 \renewcommand{\href}[2]{\textcolor{blue}{\oldhref{#1}{#2}}}
-
-%\usepackage{titling}
-%\usepackage[sfdefault,scaled=.90]{FiraSans}
-%\usepackage{newtxsf}
-%\usepackage{ragged2e}
 \usepackage{setspace}
 \onehalfspacing
 \usepackage{titling}
 \pretitle{\begin{center} \includegraphics[width=7in,height=7in]{img-cover.png}\LARGE\\}
 \posttitle{\end{center}}
-\usepackage[fontsize=16pt]{scrextend}
+\usepackage[fontsize=17pt]{scrextend}
 \usepackage{fancyhdr}
 \pagestyle{plain}
 \fancyhead{}
@@ -153,7 +148,7 @@
 
 \title{EasyPeasy (traducido al español) Alpha}
 \author{Equipo de traducción de EasyPeasy}
-\date{2022-06-06}
+\date{2022-06-21}
 
 \begin{document}
 \maketitle
