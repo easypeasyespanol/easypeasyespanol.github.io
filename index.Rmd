@@ -1,5 +1,5 @@
 ---
-title: "EasyPeasy (traducido al español)"
+title: "EasyPeasy (ESPAÑOL)"
 author: "Equipo de traducción de EasyPeasy"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
