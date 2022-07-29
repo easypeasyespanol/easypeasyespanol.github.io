@@ -39,7 +39,7 @@ https://easypeasyespanol.github.io/
 
 * Traducción al español por **NegroBienDespierto**
     * Su página: https://www.facebook.com/NegroBienDespierto/
-* Conversión a R Markdown por **porog**
+* Conversión a bookdown por **porog**
     * Su página: https://www.youtube.com/channel/UCw0bSPMyQ3bL_8Ejf_DLFQg
 * Imagen de portada por **Allan Gomes**
     * Su página: https://github.com/agomesp
