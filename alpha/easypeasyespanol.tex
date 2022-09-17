@@ -3,8 +3,7 @@
 \PassOptionsToPackage{hyphens}{url}
 %
 \documentclass[
-  spanish,
-  openany]{book}
+]{article}
 \usepackage{lmodern}
 \usepackage{amssymb,amsmath}
 \usepackage{ifxetex,ifluatex}
@@ -16,7 +15,6 @@
   \usepackage{unicode-math}
   \defaultfontfeatures{Scale=MatchLowercase}
   \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
-  \setmainfont[]{Arial}
 \fi
 % Use upquote if available, for straight quotes in verbatim environments
 \IfFileExists{upquote.sty}{\usepackage{upquote}}{}
@@ -38,9 +36,6 @@
 \IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
 \IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
 \hypersetup{
-  pdftitle={EasyPeasy (traducido al español) Alpha},
-  pdfauthor={Equipo de traducción de EasyPeasy},
-  pdflang={es},
   hidelinks,
   pdfcreator={LaTeX via pandoc}}
 \urlstyle{same} % disable monospaced font for URLs
@@ -120,7 +115,7 @@
 \pagecolor{black!85}
 
 % white page font
-\definecolor{pagefontcolor}{RGB}{215,215,215}
+\definecolor{pagefontcolor}{RGB}{230,230,230}
 \color{pagefontcolor}
 
 % blue links
@@ -145,29 +140,20 @@
 \pagestyle{plain}
 \fancyhead{}
 \pagenumbering{gobble}
-\ifxetex
-  % Load polyglossia as late as possible: uses bidi with RTL langages (e.g. Hebrew, Arabic)
-  \usepackage{polyglossia}
-  \setmainlanguage[]{spanish}
-\else
-  \usepackage[shorthands=off,main=spanish]{babel}
-\fi
 \usepackage[]{natbib}
 \bibliographystyle{plainnat}
 
-\title{EasyPeasy (traducido al español) Alpha}
-\author{Equipo de traducción de EasyPeasy}
-\date{2022-06-22}
+\author{}
+\date{\vspace{-2.5em}}
 
 \begin{document}
-\maketitle
 
 {
-\setcounter{tocdepth}{1}
+\setcounter{tocdepth}{2}
 \tableofcontents
 }
 \hypertarget{introduccion}{%
-\chapter{Introducción}\label{introduccion}}
+\section{Introducción}\label{introduccion}}
 
 \includegraphics[width=0.45\textwidth,height=0.45\textheight]{img-cover.png}\\
 
@@ -256,8 +242,8 @@ Considera si las siguientes preguntas se aplican en tu caso:
 Si eres un usuario de pornografía que depende de ella para masturbarse o tener sexo, lo único que tienes que hacer es \textbf{seguir leyendo}. Si estás aquí por un ser amado, lo único que tienes que hacer es persuadirlo para que lea este libro. Pero de no poder persuadirlo, entonces lee el libro tú mismo. Entender el método te ayudará a poder llevar el mensaje a otras personas, evitando que incluso tus hijos empiecen. No te dejes engañar por el hecho de que no tienen acceso al porno ahora --- \textbf{todos lo hacemos antes de engancharnos}.
 
 \hypertarget{acerca-del-libro}{%
-\section*{Acerca del libro}\label{acerca-del-libro}}
-\addcontentsline{toc}{section}{Acerca del libro}
+\subsection*{Acerca del libro}\label{acerca-del-libro}}
+\addcontentsline{toc}{subsection}{Acerca del libro}
 
 Este libro es una versión reescrita de una adaptación reescrita del libro \emph{``Es fácil dejar de fumar si sabes cómo''} de \emph{Allen Carr} para dejar de usar pornografía, es completamente \textbf{gratis y de código abierto}, además de estar licenciado bajo Creative Commons (CC-BY-SA). El éxito de este método se basa en el fundamento de que:
 
@@ -316,7 +302,7 @@ Quizá encuentres esto imposible de creer, pero es un sentimiento que hace eco p
 \end{itemize}
 
 \hypertarget{advertencia}{%
-\section{Advertencia}\label{advertencia}}
+\subsection{Advertencia}\label{advertencia}}
 
 Si esperas que este libro \emph{te asuste} hasta parar con los diversos riesgos de salud que los usuarios corren, como lo son la \emph{disfunción eréctil} (incluida la disfunción eréctil inducida por pornografía), la excitación sexual poco confiable, perdida de interés en el sexo real, hipofrontalidad cerebral, y la cegadora acusación de que es un hábito asqueroso y repugnante y que \emph{tú} eres una estúpida y floja medusa con falta de fuerza y una voluntad débil, estarás muy decepcionado. Esas tácticas nunca me ayudaron a dejar el porno, y si te fueran a ayudar a ti, ya lo habrías hecho.
 
@@ -383,8 +369,8 @@ No decidiste caer en la trampa, pero ten claro que \textbf{no podrás escapar de
 Si al final del libro decides continuar usando pornografía para masturbarte o tener sexo, no hay nada que te prevenga de hacerlo. No tienes que restringir o parar el uso de porno mientras lees de todas formas, y recuerda, no hay un tratamiento de shock. Al contrario, tengo buenas noticias para ti. ¿Te imaginas cómo se sintió Andy Dufresne cuando finalmente escapó de la prisión de Shawshank? Así es como me sentí cuando escapé de la trampa del porno, y así es como se sienten muchos ex-usuarios que han usado EasyPeasy. ¡Para cuando acabes el libro, así es como te sentirás! ¡Así que ve por ello!
 
 \hypertarget{finalmente}{%
-\section*{Finalmente\ldots{}}\label{finalmente}}
-\addcontentsline{toc}{section}{Finalmente\ldots{}}
+\subsection*{Finalmente\ldots{}}\label{finalmente}}
+\addcontentsline{toc}{subsection}{Finalmente\ldots{}}
 
 Todos pueden encontrar divertido y fácil dejar el porno, ¡Incluso tú! Todo lo que tienes que hacer es leer el resto del libro con una mente abierta; entre más entiendas, más fácil será. Incluso si no entiendes nada, siempre que sigas las instrucciones, será \emph{pan comido}. Más importante aún, no iras por la vida deprimido porque no tienes porno o sintiéndote privado del mismo, y para cuando acabes el libro, el único misterio será por qué lo hiciste por taaaanto tiempo.
 
@@ -407,7 +393,7 @@ Algunos términos antes de empezar:
 \emph{\textbf{MFV}}: El Método de la Fuerza de Voluntad
 
 \hypertarget{tips-para-tu-lectura-y-algunas-notas-finales}{%
-\section{Tips para tu lectura y algunas notas finales}\label{tips-para-tu-lectura-y-algunas-notas-finales}}
+\subsection{Tips para tu lectura y algunas notas finales}\label{tips-para-tu-lectura-y-algunas-notas-finales}}
 
 \textbf{No leas este libro como si fuera un libro normal}, es muy corto, y deberías poder terminarlo en un par de horas. Algunas personas se benefician \emph{enfatizando o tomando notas}, y recomiendan \textbf{darle otra leída para reforzar} algunas enseñanzas por completo.
 
@@ -438,7 +424,7 @@ This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 Intern
 \includegraphics{img-cc-by-sa.png}\\
 
 \hypertarget{el-metodo-facil}{%
-\chapter{El método fácil}\label{el-metodo-facil}}
+\section{El método fácil}\label{el-metodo-facil}}
 
 El objetivo de este libro es darte otra mentalidad. Contrario al método usual, donde solo tienes que detener tu consumo --- con el cual, a su vez, empiezas con el sentimiento de estar escalando el Everest, mientras pasas las próximas semanas anhelando y sintiéndote privado --- empiezas de inmediato con un sentimiento de entusiasmo, como si te hubieras curado de una terrible enfermedad. A partir de ahí, mientras más avances con tu vida, estarás mirando constantemente a este periodo de tiempo y te preguntarás cómo pudiste empezar a usar porno en primera instancia. Verás a cualquier otro usuario de porno con pena, lo opuesto a verlos con envidia.
 
@@ -475,7 +461,7 @@ Muchos usuarios encuentran la necesidad de racionalizar el por qué usar porno, 
 Entonces, primero removemos las falacias e ilusiones. De hecho, pronto te darás cuenta de que no hay nada a lo que renunciar. No solo eso, sino que hay maravillosas y positivas ganancias de dejar de ser un adicto, siendo el bienestar y la felicidad propia dos de esas ganancias. Luego de que la ilusión de que la vida no será tan disfrutable sin usar porno sea removida --- dándote cuenta de que la vida es, de hecho, infinitamente más disfrutable sin usarlo --- y una vez que los sentimientos de privación o de \emph{`estarse perdiendo de algo'} sean erradicados, volveremos a reconsiderar un mayor bienestar y felicidad - y las mil y una razones más por las que dejar la pornografía. Estas comprensiones se volverán un aditamento positivo para ayudarte a alcanzar lo que realmente deseas: ¡Disfrutar de una vida libre de la esclavitud que la adicción al porno te impone!
 
 \hypertarget{por-que-es-dificil-parar}{%
-\chapter{¿Por qué es difícil parar?}\label{por-que-es-dificil-parar}}
+\section{¿Por qué es difícil parar?}\label{por-que-es-dificil-parar}}
 
 Todos los usuarios sienten que los ha poseído algo malévolo. Los primeros días, es una cuestión de \emph{``pararé algún día, pero no será hoy''}, para eventualmente progresar a creer que aún no tenemos suficiente `fuerza de voluntad' para parar, o que hay algo inherente en el porno que necesitamos para poder disfrutar de la vida. La adicción al porno puede ser comparada con la idea de estar arañando tu camino para salir de un pozo resbaladizo: al llegar a la cima, puedes ver la luz del sol - pero tan pronto llegas empiezas a bajar mientras tu estado de ánimo baja. Eventualmente vuelves a abrir tu buscador, y mientras te masturbas, te sientes terrible y te preguntas por qué lo volviste hacer.
 
@@ -518,7 +504,7 @@ La respuesta es que el porno no es un hábito, \textbf{¡Es una adicción!} Es p
 La hermosa verdad es que, una vez entiendas la naturaleza real de la adicción al porno, y las razones por las que lo usas, dejarás de usarlo, \emph{así nomás}. Dentro de tres semanas, ¡el único misterio será porque encontraste necesario usar pornografía todo el tiempo que la usaste, y por qué no puedes persuadir a otros sobre \emph{lo bien que se siente no ser un adicto!}
 
 \hypertarget{la-siniestra-trampa}{%
-\section{La siniestra trampa}\label{la-siniestra-trampa}}
+\subsection{La siniestra trampa}\label{la-siniestra-trampa}}
 
 El porno de internet es la trampa más sutil y siniestra que el hombre y la naturaleza han podido idear; es la única trampa en la naturaleza cuya configuración no requiere de mucho esfuerzo. Algunos de nosotros incluso están al tanto de los riesgos, pero no podemos creer que aquellos adictos realmente no lo estén disfrutando. ¿Pero qué es lo que nos atrae en primer lugar? Típicamente, muestras gratis de amateurs o profesionales que comparten su material en redes o en cualquier otro medio. Así es como la trampa se activa; tu primer `vistazo', esa foto, ese video, o incluso, ese \emph{`thumbnail'} tiene \emph{``manchas y hoyos''}, siendo que este material tiende a ser de calidad \emph{`amateur'} o está hecho en casa por modelos desconocidas, material que puede llegar a resultarnos novedoso, aunque un poco repugnante. Aunque claro, que en el caso de que tu primer vistazo tuviera bellezas angelicales, modelos demasiado voluptuosas, las alarmas comenzarían a sonar en tu cerebro, cuando ese sentimiento de novedad es activado con mayor impacto.
 
@@ -547,7 +533,7 @@ Los usuarios son seres humanos inteligentes y racionales. Saben que están toman
 Más molesto aún, los usuarios incluso llegan a tener la noción de que los no-usuarios --- siendo la mayoría mujeres, gente mayor y gente viviendo en lugares donde el porno no está disponible debido a sus servicios de internet --- no se están perdiendo de nada, encontrando dicha situación graciosa. Desmantelando esos factores en los siguientes capítulos, ¡tú también entenderás esta siniestra trampa!
 
 \hypertarget{la-naturaleza-del-porno}{%
-\chapter{La naturaleza del porno}\label{la-naturaleza-del-porno}}
+\section{La naturaleza del porno}\label{la-naturaleza-del-porno}}
 
 El porno trabaja secuestrando tu sistema de recompensa natural, diseñado para reproducir estímulos lo más que se pueda. La forma tan rápida e instantáneamente accesible del porno de Internet mantiene tu sistema de recompensa produciendo dopamina por un periodo de tiempo mucho más prolongado de lo normal. Esto es denominado científicamente como \emph{el efecto de Coolidge}, el cual es muy probable que ya conozcas.
 
@@ -575,7 +561,7 @@ Un fugaz sentimiento de seguridad es todo lo que se necesita para atravesar un m
 La inundación de dopamina en tu sistema actúa como una droga de acción rápida, cuyo efecto decae rápidamente y te induce a dolores de abstinencia. Algunos usuarios tienen la ilusión de que estos síntomas de abstinencia son el terrible trauma que sufren cuando tratan de parar o son forzados a hacerlo. Aunque, de hecho, estos síntomas son enteramente mentales, debido a que el usuario se siente privado de su placer o apoyo.
 
 \hypertarget{el-pequeuxf1o-monstruo}{%
-\section{El pequeño monstruo}\label{el-pequeuxf1o-monstruo}}
+\subsection{El pequeño monstruo}\label{el-pequeuxf1o-monstruo}}
 
 La abstinencia química real que ocasiona el porno es tan sutil que muchos usuarios han vivido y muerto sin darse cuenta que son drogadictos. Muchos usuarios temen a las drogas, y aun así es exactamente lo que son, drogadictos. Por fortuna, es una droga fácil de dejar, pero primero necesitas aceptar que, de hecho, eres un adicto. La abstinencia del porno no causa ningún dolor físico y es meramente un sentimiento vacío e inquieto, de que algo falta, que es por eso por lo que muchos piensan que tiene relación con el deseo sexual. Prolongado, este sentimiento se convierte en nervios, inseguridad, agitación, poca confianza en sí mismo e irritabilidad. Es como estar hambriento; hambriento de veneno.
 
@@ -584,7 +570,7 @@ A los pocos segundos de empezar una sesión, la dopamina es suministrada al cere
 Todos los usuarios empiezan a buscar porno por razones irracionales. La \emph{única} razón por la cual lo siguen usando, sea un usuario casual o un adicto, es para alimentar a ese pequeño monstruo. Todo este enigma es una serie de crueles y confusos castigos, pero quizá el aspecto más patético de esto es el sentido de disfrute que un usuario consigue de una sesión, sólo para arrepentirse y tratar de recuperar ese sentido de paz, tranquilidad y confianza que tenía en su cuerpo antes de haberse enganchado en primer lugar.
 
 \hypertarget{la-molesta-alarma}{%
-\section{La molesta alarma}\label{la-molesta-alarma}}
+\subsection{La molesta alarma}\label{la-molesta-alarma}}
 
 ¿Alguna vez te ha pasado que la alarma del coche de un vecino estuvo sonando por un bueeen rato --- o cualquier tipo de agravo similar --- hasta que ese sonido por fin para y un maravilloso sentimiento de paz y tranquilidad irrumpe en ti? Esto no es un sentimiento de paz en sí, sino el fin de una molestia. Antes de iniciar en la próxima sesión, nuestro cuerpo está completo, pero entonces empezamos a forzar a nuestro cerebro a bombear dopamina, a sentir deseos, y cuando acabamos y ese sentimiento de deseo empieza a dejar nuestro sistema, sufrimos de los dolores de abstinencia. Estos dolores no son físicos, son meramente un sentimiento de vacío. No somos conscientes de que existen, pero es como un grifo que gotea dentro de nuestro cuerpo.
 Nuestras mentes racionales no lo entienden, pero no tienen que. Todo lo que sabemos es que queremos porno y cuando nos masturbamos, esas ansias desaparecen. Sin embargo, la satisfacción es fugaz porque, en orden para aliviar esas ansias, más porno es requerido. Tan pronto tienes el orgasmo, las ansias empiezan de nuevo y la trampa te sigue reteniendo. Un bucle, ¡Hasta que lo rompes!
@@ -608,7 +594,7 @@ La heroína no alivia ese sentimiento, lo causa. Similarmente, los no-usuarios n
 Hablamos de porno de internet siendo algo relajante y satisfactorio, Pero ¿cómo puede puedes estar satisfecho a menos que estuvieras insatisfecho en primer lugar? Un no-usuario no sufre de este estado insatisfecho, sintiéndose completamente relajado después de una cita sin sexo, mientras que el usuario no se relaja hasta que hayan satisfecho a su `pequeño monstruo'.
 
 \hypertarget{un-placer-o-un-apoyo}{%
-\section{¿Un placer o un apoyo?}\label{un-placer-o-un-apoyo}}
+\subsection{¿Un placer o un apoyo?}\label{un-placer-o-un-apoyo}}
 
 Un recordatorio importante --- la principal razón por la que los usuarios encuentran difícil dejar el porno es debido a la creencia de que están renunciando a un placer o apoyo genuino. Es esencial entender que no estás renunciando a absolutamente \emph{nada}. La mejor manera de entender las sutilezas de la trampa del porno es comparándolo con comer. El hábito de las comidas regulares no nos causa una hambruna entre cada comida, siendo que nos sentimos hambrientos solo cuando estas son pospuestas. No hay dolor físico, solo un sentimiento de vacío que reconocemos como \emph{hambre}. Satisfacer nuestra hambre es sin duda un proceso placentero.
 
@@ -629,7 +615,7 @@ La pornografía parece ser casi idéntica, pero no lo es. Así como con el hambr
 En el internet, la pornografía es frecuentemente referida como un hábito y para conveniencia de EasyPeasy, también se le describe como tal. Sin embargo, te pido que estés constantemente consciente de que el porno no es un hábito, \textbf{¡es una adicción!} Cuando empezamos a usar porno, nos tenemos que forzar a nosotros mismos para poder afrontar con dicho `hábito'. Y antes de que lo sepamos, empezamos a escalar en géneros de porno mucho más bizarros y shockeantes. La diversión está en la búsqueda, no en la ejecución, con la dopamina dejando rápidamente el cuerpo después del orgasmo, explicando por qué otros usuarios prefieren llegar al borde (o, en otras palabras, retrasar su orgasmo) mientras pasan por múltiples ventanas o vídeos.
 
 \hypertarget{cruzando-la-luxednea-roja}{%
-\section{Cruzando la línea roja}\label{cruzando-la-luxednea-roja}}
+\subsection{Cruzando la línea roja}\label{cruzando-la-luxednea-roja}}
 
 Como con cualquier otra droga, el cuerpo tiende a desarrollar una inmunidad a los efectos de los mismos clips que ya vimos, haciendo que nuestro cerebro \emph{necesite} buscar más, y más novedoso. Luego de haber tenido cortos periodos viendo el mismo clip, este clip deja de aliviar por completo los dolores de abstinencia que la sesión anterior creó. Comienza un juego de `jalar la cuerda' en este \emph{`paraíso de pornografía'}; por un lado, estás tú, queriendo mantenerte en tu línea roja de `porno seguro', del otro está tu cerebro, queriendo que des clic en ese clip, el que asemeja en cualidad a una \emph{fruta prohibida}.
 
@@ -652,7 +638,7 @@ Es una falacia que personas física y mentalmente débiles se convierten en usua
 Disfrutar del porno es una ilusión. Saltar de género en género, meramente manteniendo nuestro sentido de novedad dentro de la `línea roja' y el `porno seguro' para poder obtener nuestra dosis de dopamina, es una ilusión. Como un adicto a la heroína, todo lo que estás disfrutando es ese ritual de aliviar los dolores de abstinencia.
 
 \hypertarget{bailar-alrededor-de-la-luxednea-roja}{%
-\section{Bailar alrededor de la línea roja}\label{bailar-alrededor-de-la-luxednea-roja}}
+\subsection{Bailar alrededor de la línea roja}\label{bailar-alrededor-de-la-luxednea-roja}}
 
 Incluso con aquel video que han frecuentado, los usuarios están constantemente aprendiendo a filtrar las partes feas o malas de un video. Sea cual sea el género, aprenden a filtrar las partes del cuerpo que más les atraen. De hecho, algunos encuentran placer en este `baile alrededor de la línea roja', encontrando excusas para declarar que les gustan las cosas `suaves' y que no son adictos a estímulos supranormales. Pero pregúntale a un usuario que cree que se apega más a cierta actriz o género: \emph{``¿Si no pudieras acceder a tu género común de porno y tuvieras que usar un género mucho más inseguro, aún te masturbarías con ese?''}
 
@@ -672,7 +658,7 @@ El disfrute no tiene nada que ver con esto, si deseas tener sexo, no tiene senti
 ¿Por qué tantos usuarios encuentran difícil parar, pasando por meses de tortura y pasando el resto de sus vidas usando pornografía en sus peores momentos? La respuesta es la segunda razón, el lavado de cerebro. Es fácil lidiar con la adicción, siendo que algunos usuarios pueden pasar días sin usar porno en viajes de negocios o en vacaciones, sin ser realmente afectados por los dolores de abstinencia. Con la condición de que su pequeño monstruo está a salvo, a sabiendas de que tan pronto lleguen a su cuarto encenderán la laptop. Puedes sobrevivir a ese irritante cliente, o a los gritos de tu jefe, sabiendo que tu dosis está ahí, en tu celular, lista para ser reclamada.
 
 \hypertarget{la-analoguxeda-del-fumador}{%
-\section{La analogía del fumador}\label{la-analoguxeda-del-fumador}}
+\subsection{La analogía del fumador}\label{la-analoguxeda-del-fumador}}
 
 Una buena analogía es aquella del fumador de cigarrillos. Si llegaran a pasar 10 horas del día sin poder dar una `calada' de cigarro, estarían arrancándose los pelos; pero algunos usuarios comprarían un coche y se abstendrían de fumar dentro de él. Algunos incluso podrían visitar cualquier restaurante o centro comercial, donde no se les es permitido fumar, y no tendrían problema. Incluso en los trenes, en los aviones, no hay conflicto. Los fumadores estarán complacidos si hay alguien o una situación que los detenga de fumar.
 
@@ -687,7 +673,7 @@ Quizá sirva de consolación para los usuarios de toda una vida, o para los usua
 Pero primero, debemos remover el lavado de cerebro.
 
 \hypertarget{lavado-de-cerebro}{%
-\chapter{Lavado de cerebro}\label{lavado-de-cerebro}}
+\section{Lavado de cerebro}\label{lavado-de-cerebro}}
 
 Esta es la segunda razón por la que empezamos a usar porno. Y para entenderlo por completo es necesario que nosotros examinemos primero los poderosos efectos de los estímulos supranormales. Nuestros cerebros simplemente no están preparados para la creación de un ``Harem en línea'', el cual nos permite `hojear' entre una mayor cantidad de potenciales parejas en 15 minutos de lo que nuestros ancestros pudieron en varias vidas.
 
@@ -696,14 +682,14 @@ Ha habido vasta cantidad de consejos sobre la masturbación en el pasado que res
 En última instancia, el mensaje que propone todo este bombardeo es: \emph{``La cosa más preciada en esta tierra, mi último pensamiento y acción, será el orgasmo''}. ¿Acaso exagero? Ve cualquier serie o película de streaming, y verás la mezcla que usan sobre la parte sensorial (tacto, olor y voz) y la parte propagativa (orgásmica) del sexo. Esto no tiene un registro muy fuerte en nuestra consciencia, pero el subconsciente tiene tiempo para absorber el mensaje.
 
 \hypertarget{razonamiento-cientuxedfico}{%
-\section{Razonamiento científico}\label{razonamiento-cientuxedfico}}
+\subsection{Razonamiento científico}\label{razonamiento-cientuxedfico}}
 
 Hay mucha publicidad en Internet que te anima a dejar el porno con otro enfoque; páginas que tratan de asustarte con el concepto de disfunción eréctil, con la pérdida de motivación, la preferencia del porno virtual a las chicas reales, \emph{`YourBrainOnPorn'} y otras varias subculturas de internet. Sin embargo, estos movimientos en realidad no detienen a las personas de usar pornografía. Lógicamente hablando, deberían hacerlo, pero el simple hecho es que no. Ni siquiera los riesgos para la salud que son enumerados en estudios revisados por pares, y que a su vez son expuestos en \emph{YourBrainOnPorn} son suficientes para evitar que un adolescente comience con la adicción.
 
 Irónicamente, la fuerza más poderosa en toda la confusión que atormenta a los usuarios, son los propios usuarios. Es una falacia decir que los usuarios tienen voluntad débil, o que son personas físicamente débiles. Tienes que ser físicamente fuerte para poder hacer frente a una adicción después de saber que eres adicto. Y tal vez, el aspecto más doloroso de esto es que se colocan como perdedores, fracasados o como insufribles introvertidos. Es probable que un amigo tuyo podría ser más interesante en persona si no se hubiera enganchado a la idea de satisfacerse a sí mismo con porno en primer lugar.
 
 \hypertarget{problemas-al-usar-la-fuerza-de-voluntad}{%
-\section{Problemas al usar la fuerza de voluntad}\label{problemas-al-usar-la-fuerza-de-voluntad}}
+\subsection{Problemas al usar la fuerza de voluntad}\label{problemas-al-usar-la-fuerza-de-voluntad}}
 
 Los usuarios que prefieren usar el método de la fuerza de la voluntad culpan a su propia falta de voluntad por sus fracasos, arruinando así su paz y su felicidad propia. Pero una cosa es fallar en la autodisciplina y otra muy diferente es auto-despreciarse. Después de todo, no hay ninguna ley que te obligue a estar erecto todo el tiempo, adecuadamente excitado y físicamente capaz de satisfacer a tu pareja en el momento. Estamos trabajando en una adicción, no en un hábito, y en ningún momento discutes contigo mismo para dejar un hábito como el golf, a pesar de que hacer lo mismo con la adicción al porno está normalizado, ¿por qué?
 
@@ -720,7 +706,7 @@ Una vez te conviertes en un adicto a la pornografía, el lavado de cerebro incre
 \includegraphics{img-la-trampa.png}\\
 
 \hypertarget{pasividad}{%
-\section{Pasividad}\label{pasividad}}
+\subsection{Pasividad}\label{pasividad}}
 
 La pasividad de nuestras mentes para absorber información, y la dependencia de una autoridad son factores que conducen al lavado de cerebro, además de ser la principal dificultad para dejar al porno. Eso, junto con nuestra crianza en la sociedad, reforzada por el lavado de cerebro de nuestra propia adicción y combinada con los lavados de cerebro más poderosos: nuestros amigos, familiares y colegas. Decir que vas a ``renunciar al porno'' es un ejemplo clásico de lavado de cerebro, que implica un sacrificio genuino. Cuando la hermosa verdad es que no hay nada a lo que renunciar; al contrario, te liberarás de una terrible enfermedad y obtendrás maravillosas ganancias positivas. Comenzaremos a remover este lavado de cerebro ahora, empezando por no referirse a ``renunciar'' sino a parar, `dejar de' o quizá la verdadera naturaleza de todo esto, \textbf{¡Escapar!}
 
@@ -755,7 +741,7 @@ Estamos a punto de eliminar este lavado de cerebro, así que, por favor, hazte a
 ¿De qué se pierden los usuarios al sacrificar el porno por estos aditivos? \textbf{DE ABSOLUTAMENTE NADA}, aparte de la ilusión de tener que obtener de vuelta su estado de paz, su tranquilidad y su confianza usando el porno, cosa de la cual los no-usuarios disfrutan \emph{sin} porno.
 
 \hypertarget{los-dolores-de-abstinencia}{%
-\section{Los dolores de abstinencia}\label{los-dolores-de-abstinencia}}
+\subsection{Los dolores de abstinencia}\label{los-dolores-de-abstinencia}}
 
 Como se explicó anteriormente, los usuarios creen que usan porno para su disfrute, relajación o como una especie de educación sexual. Cuando la verdadera razón es porque tienen que aliviar los dolores de abstinencia. Nuestro subconsciente empieza a aprender que el porno y la masturbación cada cierto tiempo tienden a ser placenteros. Pero a medida que incrementamos nuestro enganche en la droga, más grande es la necesidad de aliviar esa abstinencia y cuanto más te arrastra sutilmente a la trampa. Este proceso ocurre tan lentamente que no eres consciente de él, como con la mayoría de los jóvenes usuarios que no se dan cuenta que son adictos hasta que tratan de detenerse, e incluso cuando muchos de ellos no lo admiten.
 
@@ -776,14 +762,14 @@ Mira esta conversación que un terapeuta suele tener con cientos de jóvenes, po
 Como ya se dijo, los usuarios tienden a aliviar sus dolores de abstinencia en momentos de estrés, aburrimiento, concentración o en combinación de estos. Por lo tanto, en los siguientes capítulos, nos centraremos en estos aspectos del lavado de cerebro.
 
 \hypertarget{aspectos-del-lavado-de-cerebro}{%
-\chapter{Aspectos del lavado de cerebro}\label{aspectos-del-lavado-de-cerebro}}
+\section{Aspectos del lavado de cerebro}\label{aspectos-del-lavado-de-cerebro}}
 
 El \emph{Gran Monstruo} que se crea gracias a la trampa de la pornografía es procreado a través de la culminación de muchos aspectos, como los son aspectos sociales, los medios de comunicación, las parejas sexuales y la propia narrativa interna del usuario. Fallar en deconstruir estas falacias mientras se usa el MFV eventualmente llevará al usuario a tener sentimientos de privación, lo cual a su vez lo lleva de regreso a la trampa. ¡La deconstrucción del valor imaginario del porno es crucial para el éxito, y te permite ver por dónde te están robando!
 
 Es importante señalar el vínculo entre el lavado de cerebro y el miedo. Es el miedo a sentir \emph{\textbf{futuros dolores de abstinencia}} lo que crea dichos dolores. El miedo es el dolor en sí mismo. Solo piensa en las veces que sufriste de síntomas de abstinencia, como tener palmas sudorosas, dificultad para respirar, problemas para dormir e incapacidad para pensar con claridad. Ahora piensa en situaciones similares en las que hayas tenido esos sentimientos: entrevistas de trabajo, nervios al estar con una persona atractiva, hablar en público, etc. Estos son los mismos sentimientos de ansiedad que causa el miedo. En pocas palabras, ¿Cómo puede una droga física seguir enganchando a las personas meses después de suspenderla? Debe ser a través de la mente, ¿Correcto?
 
 \hypertarget{estruxe9s}{%
-\section{Estrés}\label{estruxe9s}}
+\subsection{Estrés}\label{estruxe9s}}
 
 No solo las grandes tragedias en la vida, sino también las tensiones menores llevan a los usuarios a la ``insegura'' zona prohibida previamente excluida, a la zona más allá de la línea roja. Estas tensiones pueden venir en forma de socialización, llamadas telefónicas, las actividades de un padre de familia, entre otras. Tomemos las llamadas como ejemplo, especialmente las de un empresario. La mayoría de las llamadas no son de clientes satisfechos o de su jefe felicitándolo, siempre es algún tipo de agravio. Luego de un día arduo de trabajo, este mismo empresario tendrá que volver a su casa, a la mundana vida familiar: a los gritos infantiles y a las demandas emocionales de su pareja. Cosa que hace que el usuario --- si aún no lo está haciendo --- fantasee con el alivio que el porno le dará esa noche. Estas personas sufren inconscientemente dolores de abstinencia, con sus desestresores debilitados y sin preparación para un agravamiento adicional. Al aliviar parcialmente los dolores con porno, a la par de que el estrés cotidiano es erradicado, el estrés total se reduce y el usuario recibe una especie de \emph{estímulo} temporal. Este estímulo no es ilusorio; el usuario realmente se siente mejor que antes después de esta sesión, y sin ninguna fuente de estrés, pero sintiéndose más tenso de lo que estaría como no usuario.
 
@@ -798,7 +784,7 @@ Trata de imaginar llegar al punto en el que no puedes excitarte, incluso con una
 No hay necesidad de autoevaluarse, basándote en tu habilidad de satisfacer a tu pareja; esto no es libertad. Pero esta libertad tampoco puede ser obtenida si sigues engrasando el tobogán de dopamina que corta tu felicidad y libido; si sigues repitiendo el mismo comportamiento destructivo.
 
 \hypertarget{aburrimiento}{%
-\section{Aburrimiento}\label{aburrimiento}}
+\subsection{Aburrimiento}\label{aburrimiento}}
 
 Si eres como mucha gente, tan pronto como te metes en la cama ya estás en tu sitio porno favorito, probablemente olvidándote de este hecho hasta que te lo recuerdan. Se ha convertido en una suerte de hábito. Del mismo modo, eso de que el porno alivia el aburrimiento es otra falacia porque el aburrimiento es un estado de ánimo; se produce cuando has estado privado por mucho tiempo o estás tratando de reducir tu consumo.
 
@@ -807,7 +793,7 @@ La situación real es esta: cuando eres adicto al estímulo supranormal del porn
 La verdad es que el porno incrementa el aburrimiento de manera indirecta porque el orgasmo te hace sentir con poca energía, cuando podrías usar esa energía para comprometerte a una actividad más enérgica. Los usuarios tienden a preferir holgazanear, aburrirse y saciar sus dolores de abstinencia. Contrarrestar el lavado de cerebro es importante porque los usuarios tenderán a mirar pornografía cuando estén aburridos, con nuestro cerebro cableándose constantemente para interpretar al porno como algo interesante. Es incluso extraño como, de forma similar, nos lavaron el cerebro para creer que el sexo, incluso el malo, ayuda en la relajación. Es un hecho que cuando se sienten tristes o están bajo estrés, las parejas quieren tener sexo para relajarse. Pero dejando de lado las partes tántricas y propagativas del sexo, trata de observar lo rápido que una pareja quiere alejarse de la otra después del obligado orgasmo. Por otro lado, si esta pareja hubiera decidido abrazarse, hablar o acurrucarse e irse a dormir, se habrían ido a dormir aliviados.
 
 \hypertarget{concentraciuxf3n}{%
-\section{Concentración}\label{concentraciuxf3n}}
+\subsection{Concentración}\label{concentraciuxf3n}}
 
 La masturbación y el sexo no ayudan a la concentración; cuando estás intentando concentrarte automáticamente intentas evitar distracciones. Sin embargo, esto es un poco más complejo para un adicto; cuando un usuario quiere concentrarse, ni siquiera lo piensa - abre automáticamente el navegador, alimenta al pequeño monstruo y acaba parcialmente con el deseo. Continúan con sus asuntos, olvidando que han visto pornografía. Y no es hasta después de años de inundaciones de dopamina, cuando los usuarios se percatan que los cambios neurológicos en su sistema afectan habilidades como el acceso a la información, la planificación y el control de los impulsos.
 
@@ -824,7 +810,7 @@ Si crees que el porno es una verdadera ayuda para la concentración, piensa en e
 Y recuerda: es el usuario el que sufre dolores, no los no-usuarios.
 
 \hypertarget{relajaciuxf3n}{%
-\section{Relajación}\label{relajaciuxf3n}}
+\subsection{Relajación}\label{relajaciuxf3n}}
 
 La mayoría de los usuarios piensan que el porno les ayuda a relajarse. Pero no es así. La búsqueda frenética por conseguir tu dosis en esos ``rincones oscuros de Internet'' y la lucha interna por tratar de no ahorcarse con la correa por cruzar la línea roja ciertamente no suena como una actividad muy relajante.
 
@@ -845,7 +831,7 @@ He aquí otra analogía sobre fumadores; hace un par de años las autoridades de
 ¿No es hora de que salgas de la planta?
 
 \hypertarget{energuxeda}{%
-\section{Energía}\label{energuxeda}}
+\subsection{Energía}\label{energuxeda}}
 
 La mayoría de los usuarios son conscientes de los efectos progresivos que la búsqueda por novedad y la escalada en géneros de pornografía tienen en sus sistemas sexuales y de recompensa cerebrales. Sin embargo, no son conscientes del efecto que tiene en su nivel de energía.
 
@@ -858,7 +844,7 @@ La falta de energía, el cansancio y todo lo relacionado con ello se oculta muy 
 Poco después de dejar el porno, los sentimientos de tener la mente ``nublada'' y el sentimiento de vergüenza desaparecerán. El punto es que con el porno siempre estás gastando tu energía y en ese proceso, manipulando la química de tu sistema límbico. A diferencia de dejar de fumar, donde el retorno de tu salud física y mental es gradual, dejar el porno te da excelentes resultados desde el primer día. Matar al ``pequeño monstruo'' y cerrar los toboganes de agua lleva un poco de tiempo, pero recuperar tu centro de recompensa no es como el lento deslizamiento hacia el pozo. E incluso, si estás pasando por el trauma de usar el MFV, cualquier ganancia de salud o energía opacara la depresión que estás atravesando. Desafortunadamente, no es posible que EasyPeasy te transfiera inmediatamente a tu mente en tres semanas, ¡Pero tú sí puedes! Sabes instintivamente que lo que te dicen es correcto, ¡y todo lo que necesitas hacer es usar tu imaginación!
 
 \hypertarget{las-sesiones-sociales-nocturnas}{%
-\section{Las sesiones sociales nocturnas}\label{las-sesiones-sociales-nocturnas}}
+\subsection{Las sesiones sociales nocturnas}\label{las-sesiones-sociales-nocturnas}}
 
 Con el fin de controlar tu apetito, ¿Comerías en casa antes de salir a un restaurante con amigos, o a una fiesta? Esto es lo que haces con las sesiones de porno antes de tus eventos sociales nocturnos, solo para llegar con un aspecto cansado y sin estar en tu mejor forma. Lo dejaré claro para ti; últimamente se han adoptado técnicas generales de ligue en algunos nichos de nuestra sociedad. Estas técnicas están hechas para tener la mejor oportunidad de ligar en eventos sociales de este tipo. Pero, y en caso de que decidas cortejar a una pareja esta noche, intentar ahogar tus mariposas con pornografía y sustancias sólo empeorará el problema a la larga. A mí en lo personal, me gusta un poco de ansiedad para mantenerme enfocado y comprometido, cuando, por el contrario, el cansarte mental y físicamente con el orgasmo no va a ayudar.
 
@@ -873,7 +859,7 @@ Pongámoslo en claro, no es el porno ni los harems los que son especiales, sino 
 \includegraphics{img-la-salida-easypeasy.png}\\
 
 \hypertarget{a-que-estoy-renunciando}{%
-\chapter{¿A qué estoy renunciando?}\label{a-que-estoy-renunciando}}
+\section{¿A qué estoy renunciando?}\label{a-que-estoy-renunciando}}
 
 \textbf{¡A absolutamente a nada!} Es difícil dejar el porno por el miedo a ser privados de nuestro placer o ``apoyo''. Por el miedo a que ciertas situaciones placenteras nunca volverán a ser las mismas. Miedo a que serás incapaz de lidiar con situaciones estresantes. En otras palabras, es difícil de dejar el porno gracias al efecto del lavado de cerebro, engañándonos para creer que el sexo --- y por lo tanto el orgasmo --- es una necesidad para todas las personas. Más aún, también se debe a la creencia de que hay algo inherente en el porno que necesitamos, y que cuando dejemos de usarlo nos estaremos negando dicho apoyo a nosotros mismos, generando a su vez un vacío.
 
@@ -882,7 +868,7 @@ Hazte a la idea de una vez: \textbf{¡El porno no llena ningún vacío, \emph{cr
 Nuestros cuerpos son los objetos más sofisticados del planeta. Así creas en el diseño inteligente, en la selección natural, o en una combinación de ambos conceptos, ¡nuestros cuerpos son miles de veces más efectivos que el hombre en sí mismo! Somos incapaces de crear con nuestras propias manos la más pequeña célula viviente, o los milagros de la vista, la reproducción y alguno de los varios sistemas entrelazados presentes en nuestros cuerpos o cerebros. Si nuestro creador hubiera tenido la intención de que manejáramos un estímulo supranormal como lo es el porno, nos habría proporcionado entonces un sistema de recompensa diferente en nuestro sistema nervioso. Nuestros cuerpos están provistos con mecanismos de alarma a prueba de fallos, el cual como empedernidos usuarios que somos ignoramos bajo nuestro propio riesgo\ldots{}
 
 \hypertarget{no-hay-nada-a-lo-que-renunciar}{%
-\section{No hay nada a lo que renunciar}\label{no-hay-nada-a-lo-que-renunciar}}
+\subsection{No hay nada a lo que renunciar}\label{no-hay-nada-a-lo-que-renunciar}}
 
 Una vez que purgas ese pequeño monstruo de tu cuerpo y el lavado de cerebro (el gran monstruo) de tu mente, ya no buscaras ni masturbarte con mucha frecuencia ni usar porno para ello. Hay muchos hechos e incógnitas en cuanto a adicción al porno se refiere, con muchos en la comunidad médica sin tener el concepto ni la voluntad de cuestionar o determinar a alguien como un adicto al porno. Incluso, muchos de los síntomas del adicto están mal etiquetados bajo otras causas. Y no es que los usuarios sean generalmente gente estúpida; recuerda, es solo que son miserables sin el porno. Atrapados entre la espada y la pared, se abstienen y terminan sintiéndose miserables porque no pueden usar porno, o terminan sintiéndose culpables y despreciándose a sí mismos. Cuando tienen síntomas como dolor en la espalda baja o disfunción sexual, sus mentes se dividen entre aceptar la responsabilidad o mirar a otra parte.
 
@@ -903,7 +889,7 @@ No solo tienes nada que perder, sino que también tienes muchos beneficios a obt
 \end{itemize}
 
 \hypertarget{oh-el-vacuxedo-el-vacuxedo-el-hermoso-vacuxedo}{%
-\section{Oh, el vacío, el vacío, ¡el hermoso vacío!}\label{oh-el-vacuxedo-el-vacuxedo-el-hermoso-vacuxedo}}
+\subsection{Oh, el vacío, el vacío, ¡el hermoso vacío!}\label{oh-el-vacuxedo-el-vacuxedo-el-hermoso-vacuxedo}}
 
 Imagina que tienes un herpes en el rostro, así que vas a la farmacia y te dan un ungüento gratis, para que lo pruebes. Te pones el ungüento y el herpes desaparece de inmediato. Una semana después reaparece, así que vuelves a la farmacia preguntando si tiene más ungüento. El farmacéutico dice ``claro; solo conserva el tubo, puede que lo necesites luego''.
 
@@ -924,7 +910,7 @@ Algunos usuarios son ``felices'', cegados por su astuto y pequeño monstruo, con
 \emph{¡Es tan agradable ser libre!}
 
 \hypertarget{ahorrando-tu-tiempo}{%
-\chapter{Ahorrando tu tiempo}\label{ahorrando-tu-tiempo}}
+\section{Ahorrando tu tiempo}\label{ahorrando-tu-tiempo}}
 
 Cuando los usuarios tratan de detenerse, las principales y usuales razones por las que quieren detenerse son por salud, religión y estigmas que tienen sus parejas, dado que tengan una. Y una parte del lavado de cerebro que el porno genera se basa en la absoluta esclavitud que te impone; el hombre ha luchado por siglos para abolir la esclavitud en varias partes del mundo -- y, aun así, el usuario pasa su vida sufriendo de una esclavitud autoimpuesta. Son inconscientes de que cuando se les permite usar porno desearían ser no-usuarios. Y de que el único momento en que el porno se vuelve preciado es cuando ``tratamos'' de limitarlo o abstenernos, o cuando la abstinencia nos es forzada.
 
@@ -955,7 +941,7 @@ Pronto, estarás tomando la decisión de tener tu última sesión (aun no, ¡por
 Si estás instruyendo a alguien por su adicción al porno, diles que conoces a un idiota que rechazo una oferta de trabajo que le daba su salario anual junto con un mes de descanso pagado. Y cuando pregunte quien es el idiota dile, \textbf{``¡TU, TU ERES EL IDIOTA!''} Es maleducado, pero a veces necesitas llegar al punto de una manera menos amable.
 
 \hypertarget{salud}{%
-\chapter{Salud}\label{salud}}
+\section{Salud}\label{salud}}
 
 Esta es el área donde el lavado de cerebro es más fuerte con los usuarios, --- particularmente con los más jóvenes y las personas solteras --- quienes creen que están conscientes de los riesgos de salud, sin estarlo realmente. Muchos se engañan a sí mismos diciendo que están preparados para aceptar las consecuencias. Pero si tu Reuter de Internet tuviera una alarma que sonara cada vez que entras a un sitio pornográfico, y dijera \emph{``Advertencia - te has salido con la tuya esta vez, pero si te quedas un minuto más en ese sitio tu cabeza explotará.''}, ¿te hubieras quedado? Si estás dudando de tu respuesta, trata de buscar un acantilado, pararte en el borde con los ojos cerrados, e imaginar que tienes que tomar la decisión de dejar el porno o dar un paso adelante.
 
@@ -1024,7 +1010,7 @@ Aquí hay otro experimento; digamos que alguien viene hacia ti y dice que no nec
 Pero te recuerdo, los efectos del lavado de cerebro nos hacen tender a pensar como aquel hombre que, al caer por un edificio de cien pisos, y mientras pasa por el piso cincuenta, es citado diciendo: \emph{``¡Tan lejos, tan bien!''} Pensamos que, ya que nos hemos salido con la nuestra por tanto tiempo, una sesión más no hará mucha diferencia. Velo de otra forma, el `hábito' es una cadena continua de por vida, con cada sesión creando una necesidad por la siguiente. Cuando empiezas el hábito, enciendes una chispa en la mecha de una bomba. El problema es que \emph{no sabes por cuánto tiempo más estará encendida}. Y cada sesión que tienes te acerca más a la explosión de esta bomba. \textbf{¿CÓMO SABES QUE LA PRÓXIMA VEZ NO EXPLOTARÁ?}
 
 \hypertarget{siniestras-sombras-negras}{%
-\section{Siniestras sombras negras}\label{siniestras-sombras-negras}}
+\subsection{Siniestras sombras negras}\label{siniestras-sombras-negras}}
 
 A los usuarios les resulta muy difícil de creer que la pornografía realmente cause esos sentimientos de inseguridad al salir de casa, después de un día contencioso en el hogar o en el trabajo. Los no-usuarios no sufren de estos sentimientos, es el porno el que causa esos sentimientos.
 
@@ -1033,10 +1019,10 @@ Otra de las grandes ventajas de dejar la pornografía es el poder librarnos de e
 Los últimos capítulos de este libro se encargan de dar una idea sobre las múltiples ventajas de ser un no-usuario, pero en aras de la equidad, es necesario nivelar la balanza. Así pues, la próxima página enlista las múltiples ventajas de ser un usuario, las ventajas de consumir pornografía.
 
 \hypertarget{ventajas-de-ser-un-usuario-de-pornografia}{%
-\chapter{Ventajas de ser un usuario de pornografía}\label{ventajas-de-ser-un-usuario-de-pornografia}}
+\section{Ventajas de ser un usuario de pornografía}\label{ventajas-de-ser-un-usuario-de-pornografia}}
 
 \hypertarget{el-metodo-de-la-fuerza-de-voluntad}{%
-\chapter{El método de la fuerza de voluntad}\label{el-metodo-de-la-fuerza-de-voluntad}}
+\section{El método de la fuerza de voluntad}\label{el-metodo-de-la-fuerza-de-voluntad}}
 
 La sociedad ya ha aceptado el hecho (o en este caso, la falacia) de que es muy difícil dejar de ver porno. Hay varios libros y foros que te aconsejan sobre cómo parar, recursos que generalmente comienzan diciéndote lo difícil que es. Pero la verdad es que es ridículamente fácil. Entiendo que llegues a cuestionar esta afirmación, pero considera esto primero. Correr un kilómetro y medio en cuatro minutos es difícil, y tendrías que pasar años de duro entrenamiento para conseguirlo. E incluso entonces puede que no tengas la capacidad física para hacerlo.
 
@@ -1127,7 +1113,7 @@ Como se ha dicho anteriormente, el disfrute no entra en juego. Nunca lo ha hecho
 Cuando intentamos bloquear de nuestra mente el lado malo, nos sentimos estúpidos. Pero si tuviéramos que afrontarlo, ¡sería intolerable! Si pudieras observar a un usuario en acción, verías que sólo son felices cuando no son conscientes de que están consumiendo. Una vez que son conscientes, tienden a sentirse incómodos y a tener remordimiento. ¡El porno alimenta al pequeño monstruo, por lo que al purgarlo de tu cuerpo junto con el lavado de cerebro (el gran monstruo), no tendrás necesidad ni deseo de ver porno!
 
 \hypertarget{cuidado-con-reducir-tu-consumo}{%
-\chapter{¡Cuidado con reducir tu consumo!}\label{cuidado-con-reducir-tu-consumo}}
+\section{¡Cuidado con reducir tu consumo!}\label{cuidado-con-reducir-tu-consumo}}
 
 Muchos usuarios recurren a la reducción como un paso anterior a dejar el porno, o como un intento por controlar al pequeño monstruo. Muchos incluso recomiendan la reducción o las ``dietas pornográficas'' como un alivio ante su lucha. Pero utilizar la reducción como paso previo para dejar el porno es \emph{\textbf{fatal}}. Son estos intentos de reducción los que nos mantienen en la trampa durante el resto de nuestras vidas. Y por lo general, reducir tu consumo trae consigo una inminente derrota en todo intento por dejarlo. Tras varias horas o días de abstinencia, los usuarios dicen algo como:
 
@@ -1189,7 +1175,7 @@ El otro aspecto que demuestra la reducción es que no existen las visitas ocasio
 \textbf{Recuerda: recortar tu consumo solo te hará miserable, para siempre.}
 
 \hypertarget{es-solo-una-miradita}{%
-\chapter{Es solo una ``miradita''\ldots{}}\label{es-solo-una-miradita}}
+\section{Es solo una ``miradita''\ldots{}}\label{es-solo-una-miradita}}
 
 Tener ``solo una miradita'' es un mito que debes sacar de tu cabeza:
 
@@ -1224,7 +1210,7 @@ Esta bien, es entendible que no se te ocurra nada que hacer para poder llenar es
 Muchos usuarios creen que son fuertemente adictos, o que tienen personalidades adictivas. Usualmente, esto pasa como resultado de leer cantidades excesivas de artículos relacionados a los aspectos neuro-cientificos del porno y las adicciones. Pero no existe tal cosa, nadie nace con la necesidad de masturbarse con porno antes de engancharse. Es la droga la que te engancha, no la naturaleza de tu carácter o personalidad. Es la naturaleza de los estímulos supranormales la que te hace creer que eso es así. Por eso es esencial remover esta creencia, porque si tú crees que eres un adicto, lo serás, y lo seguirás siendo incluso después de que el pequeño monstruo de tu cuerpo haya muerto. Por eso es esencial remover todo este lavado de cerebro primero.
 
 \hypertarget{los-usuarios-casuales}{%
-\chapter{Los usuarios casuales}\label{los-usuarios-casuales}}
+\section{Los usuarios casuales}\label{los-usuarios-casuales}}
 
 Los usuarios más frecuentes tienden a envidiar al usuario ``casual''. Ya sabes de cual hablo: \emph{``No me molesta pasar toda una semana sin tener una sesión.''} Ojalá fuera así. Esto puede ser difícil de creer, pero ningún usuario disfruta de ser un usuario. Nunca olvides que:~
 
@@ -1340,7 +1326,7 @@ Los padres de niños que detestan la pornografía en sí misma tampoco deberían
 Por favor, no te vuelvas complaciente en este asunto. El fracaso de las sociedades para evitar que los adolescentes se vuelvan adictos a la pornografía en Internet y otras drogas es quizás la faceta más perturbadora de esta adicción. Los cerebros jóvenes son significativamente más plásticos y moldeables, y es necesario educarlos y protegerlos. Si no estás seguro de por dónde empezar, hay muy buenos recursos como el libro \emph{YourBrainOnPorn}, el cual te puede informar sobre el aspecto neurocientífico de la pornografía.~ Incluso si sospechas que tu hijo adolescente ya está enganchado, ese libro proporciona una comprensión fundamental para ayudar a alguien a escapar de la trampa. Si de lo contrario no puedes leerlo, ¡recomiéndale este libro!
 
 \hypertarget{el-usuario-de-youtube-twitch-instagram}{%
-\chapter{El usuario de YouTube / Twitch / Instagram}\label{el-usuario-de-youtube-twitch-instagram}}
+\section{El usuario de YouTube / Twitch / Instagram}\label{el-usuario-de-youtube-twitch-instagram}}
 
 Este tipo de usuario debería ser considerado como un usuario casual, pero los efectos de su hábito son tan insidiosos que amerita un capítulo entero dedicado a desglosar su estado. Solo toma la anécdota de este usuario del foro en línea `NoFap', quien perdió el dominio de sí mismo y casi ocasiona una ruptura amorosa con su pareja:
 
@@ -1364,7 +1350,7 @@ Estos episodios de consumo son similares a la serie de Columbo: la tensión de n
 \emph{\textbf{¡OH, LAS VENTAJAS DE SER UN ADICTO!}}
 
 \hypertarget{un-habito-social}{%
-\chapter{¿Un hábito social?}\label{un-habito-social}}
+\section{¿Un hábito social?}\label{un-habito-social}}
 
 La salud mental y corpórea son las razones principales por las que \emph{deberíamos} querer detenernos --- aunque, de hecho, siempre lo han sido. En realidad, no necesitamos de investigaciones científicas o conocimientos en neurociencia para concluir que la pornografía es adictiva y que puede destruir nuestras vidas potencialmente. Nuestros cuerpos son los objetos más sofisticados del planeta, y cualquier usuario sabe, desde la primera sesión, que el estímulo puede ser excesivo y volverse venenoso.
 
@@ -1381,7 +1367,7 @@ Varias comunidades populares en línea fundadas por no-usuarios están dedicadas
 \textbf{¡NO PERMITAS QUE ESTE SEAS TÚ!}
 
 \hypertarget{escoger-el-momento-adecuado}{%
-\chapter{Escoger el momento adecuado}\label{escoger-el-momento-adecuado}}
+\section{Escoger el momento adecuado}\label{escoger-el-momento-adecuado}}
 
 Descartando el hecho de que el porno no te está haciendo ningún bien y que el mejor momento para dejarlo es ahora, es de recalcar que debes hacerlo en el momento más adecuado. La sociedad de ahora ni siquiera se toma en serio la pornografía, tomándola como un hábito ligeramente desagradable el cuál no destruye ni tu integridad física ni mental. Esto no es cierto, es una drogadicción, una enfermedad y un destructor de relaciones sociales. Lo peor que ha pasado en la vida de un usuario ha sido el haberse enganchado con esta horrible droga. Y sabemos que entre más enganchados se queden, peores cosas le pasan. Por lo tanto, dejarlo en el momento más adecuado es importante, así te das la oportunidad de obtener una \emph{cura apropiada}.
 
@@ -1428,7 +1414,7 @@ Es un cliché decir \emph{``sin tu salud, no eres nada''} pero es que es absolut
 Míralo de esta forma; ya has decidido que no te quedarás dentro de la trampa por el resto de tu vida. Y en algún punto --- te sea complicado o no --- tendrás que pasar por este proceso de liberación. El porno no es un hábito o un placer, es una adicción y una enfermedad. Hemos establecido ya que más que ser fácil mañana, tu adicción se volverá progresivamente peor. El momento para deshacerte de tu adicción es \emph{\textbf{ahora}} --- o lo más cercano a ahora que puedas. Solo piensa en lo rápido que las semanas pasan en nuestras vidas, es todo lo que te tomará. Piensa en lo lindo que será disfrutar el resto de tu vida sin sombras alrededor de tu cabeza que se van acumulando. Y dado que sigas las instrucciones al pie de la letra, no tendrás que esperar ni cinco días o tres semanas. No solo verás que es fácil, ¡sino que \textbf{también es divertido dejar tu adicción!}
 
 \hypertarget{me-perdere-de-la-diversion}{%
-\chapter{¿Me perderé de la diversión?}\label{me-perdere-de-la-diversion}}
+\section{¿Me perderé de la diversión?}\label{me-perdere-de-la-diversion}}
 
 \textbf{¡No!} Una vez que el pequeño monstruo esté muerto, una vez que tu cuerpo deje de saciar la dopamina, y una vez que los toboganes de pornografía en tu cerebro empiecen a desvanecerse debido a la falta de un correcto \emph{engrasado}, todo lavado de cerebro que quede se desvanecerá también. No solo estarás mejor equipado física y mentalmente para lidiar con el estrés y las torceduras que te dé la vida, sino que también empezarás a disfrutar los buenos tiempos en su máximo esplendor.
 
@@ -1469,7 +1455,7 @@ Quítate el hábito de envidiar a los usuarios de encima, y empieza a verlos com
 No hay ningún aspecto por el cual puedas envidiar a un adicto a la heroína, y como con toda drogadicción la tuya se hará más fuerte con el tiempo. Cada año, se pondrá exponencialmente peor - si no disfrutas ser un usuario hoy, lo disfrutarás menos mañana. No envidies a los demás usuarios, ten pena por ellos. Créeme, \textbf{¡necesitan de tu pena!}
 
 \hypertarget{puedo-compartimentar-mi-sexualidad}{%
-\chapter{¿Puedo compartimentar mi sexualidad?}\label{puedo-compartimentar-mi-sexualidad}}
+\section{¿Puedo compartimentar mi sexualidad?}\label{puedo-compartimentar-mi-sexualidad}}
 
 Este mito es especialmente compartido por aquellos usuarios que tratan de detener su consumo usando su propia voluntad, los cuales también realizan \emph{`gimnasia mental'} y comienzan para sí mismos una rutina de \emph{`Jekyll y Hyde': `El porno es para mi alter-ego y el romance real para mí persona social.'} A este punto, creo que no tengo que mencionar los hechos --- es obvio que los toboganes pornográficos, el DeltaFosB y los cambios neurológicos VAN A INVADIR tus capacidades sociales, haciéndolas más indeseables. El Sr.~Hyde va a hacer caso omiso a las instrucciones del Sr.~Jekyll.
 
@@ -1490,7 +1476,7 @@ El mito de la compartimentalización es uno de los muchos trucos que el pequeño
 Los humanos somos seres que le dan valor a las cosas; nos valoramos a nosotros mismos y a los demás. Ver pornografía con tu pareja es insatisfactorio, ya que ambos valoran de forma diferente el sexo que tienen comparándolo con la narrativa del porno. ¿Te gustaría tener a Brad Pitt en tu cuarto, aunque sea en pintura? No hay persona que pueda igualar cada experiencia sexual real que tienen con la de una película porno, donde cada `experiencia' ya está escrita, es actuada y dirigida por profesionales, y que está disponible las 24 horas del día.
 
 \hypertarget{evita-los-falsos-incentivos}{%
-\chapter{¡Evita los falsos incentivos!}\label{evita-los-falsos-incentivos}}
+\section{¡Evita los falsos incentivos!}\label{evita-los-falsos-incentivos}}
 
 Algunos de los usuarios que utilizan su fuerza de voluntad para dejar el porno también intentan incrementar su motivación a través de la construcción de falsos incentivos. Hay muchos ejemplos de esto, como la gente que se regala cosas a sí mismos después de no haber visto porno por un mes. Esto parece ser una forma lógica y un enfoque sensato para lidiar con tu adicción, pero, de hecho, es falsa; cualquier usuario que se respete a sí mismo y su estado prefiere seguir viendo pornografía que regalarse algo a sí mismos. Esto genera dudas en la mente del usuario, porque no solo tendrán que abstenerse por \emph{30 días}, sino porque tampoco saben si disfrutaran de este período sin poder ver porno. ¡Su único amigo y apoyo ha sido arrebatado! Todo lo que esto ocasiona es aumentar el sentido de sacrificio que el usuario siente, convirtiendo el porno en algo preciado en su mente.
 
@@ -1537,7 +1523,7 @@ O sigue mirando hacia el lado contrario, al lado donde estás jugando al jalar d
 Cualquier intento de hacer que otros te ayuden a dejar la pornografía le da más poder al pequeño monstruo (¿Recuerdas el lavado de cerebro social?). Aunque, por otro lado, empujándolo de tu mente e ignorándolo por completo solo tendrá ese efecto de no pensarlo. (Si te digo que no pienses en un caballo blanco, ¿podrás hacerlo?). Mejor se consciente, tan pronto notes esos pensamientos, esos indicios (como tener casa sola o ver un comercial muy sexy) o esas ideas ausentes en tu cabeza, piensa entonces \emph{``Genial, ya no soy un esclavo de la pornografía. ¡Soy libre y estoy feliz de saber la diferencia entre el porno y el sexo real!''} Hacer esto les quita oxígeno a estos pensamientos y detiene esas ardientes ganas de ceder al impulso. En este aspecto, practicar meditación `Mindfulness' también puede ser de mucha ayuda en la despersonalización de estos pensamientos\ldots{}
 
 \hypertarget{la-manera-facil-de-parar}{%
-\chapter{La manera fácil de parar}\label{la-manera-facil-de-parar}}
+\section{La manera fácil de parar}\label{la-manera-facil-de-parar}}
 
 Este capítulo contiene instrucciones referentes a la manera fácil de dejar la pornografía. Dado que sigas las instrucciones, ¡verás que dejar la pornografía varia de un rango entre fácil a disfrutable! Y dado que sigas las instrucciones de aquí abajo, será ridículamente fácil hacerlo. Todo lo que tienes que hacer es:
 
@@ -1614,7 +1600,7 @@ Piénsalo de esta forma --- tu cerebro quiere que mantengas su estatus quo, así
 La disfunción sexual tiene mucho que ver con tu cerebro y tu mentalidad de las cosas. El porno configura tu sistema de recompensas y le da a tu cerebro una mentalidad dubitativa. Está duda de ti mismo te causará indudablemente disfunción sexual. Podrás tener todo el deseo en tu parte superior, pero no podrás excitar la parte baja. Te aseguro que es de los golpes más bajos que tu mentalidad puede recibir. La libido, yendo de la mano con el romance, es el elixir de la juventud del cual puedes disfrutar, hasta tu muerte. Tendrás probabilidades altas de evitar la disfunción si decides dejar el porno, pero esa no es la única ganancia. ¡Es tu liberación de esta esclavitud!
 
 \hypertarget{el-periodo-de-abstinencia}{%
-\chapter{El periodo de abstinencia}\label{el-periodo-de-abstinencia}}
+\section{El periodo de abstinencia}\label{el-periodo-de-abstinencia}}
 
 Por hasta tres semanas después de tu última sesión, podrías estar sujeto a dolores de abstinencia. Los cuales consisten en dos distintos factores, separados entre sí:
 
@@ -1663,7 +1649,7 @@ Y hagas lo que hagas, \emph{nunca dudes de tu decisión.} Si empiezas a dudar, c
 Algunos usuarios temen que tendrán que pasar el resto de su vida revirtiendo esas ``señales automáticas'' que residen en sus vías neuronales. En otras palabras, creen que tendrán que ir por sus vidas engañando a su sistema, diciendo que no necesitan de porno a través del uso de psicología. Esto no es así, recuerda que el optimista ve el vaso medio lleno y el pesimista medio vacío. En el caso de la pornografía, el vaso está vacío y el usuario lo ve lleno. El porno no te da ninguna ventaja. Es el usuario quien ha sido lavado del cerebro para creer que la hay. Y una vez que empiezas a decirte a ti mismo que no necesitas o que no quieres porno, ya no faltara tiempo para que ni siquiera necesites decirlo, terminarás viendo la verdad por ti mismo. Es la última cosa que necesitas hacer; asegurarte de que ver que no hay nada bueno en el porno no sea la última cosa que hagas.
 
 \hypertarget{solo-una-pequena-miradita}{%
-\chapter{¿Solo UNA pequeña miradita?}\label{solo-una-pequena-miradita}}
+\section{¿Solo UNA pequeña miradita?}\label{solo-una-pequena-miradita}}
 
 Es ``solo una miradita'' la verdadera ruina de aquellos que utilizan su voluntad para detener el PMO. Podrán abstenerse tres o cuatro días, pero será en vano de haber tenido esta pequeña visita a su harem para levantar su ánimo. Estos usuarios no se dan cuenta de los devastadores efectos que este aspecto tiene en su moral.
 
@@ -1686,7 +1672,7 @@ Por sobre todas las cosas, recuerda:
 {\emph{Tener `solo una miradita' es la primordial forma en la que muchas personas inician en primer lugar.}}
 
 \hypertarget{sera-mas-dificil-para-mi}{%
-\chapter{¿Será más difícil para mí?}\label{sera-mas-dificil-para-mi}}
+\section{¿Será más difícil para mí?}\label{sera-mas-dificil-para-mi}}
 
 Hay una infinita cantidad de factores que pueden determinar qué tan fácil resulta para un individuo dejar la pornografía. Para empezar, cada uno de nosotros tiene su propio carácter, carrera laboral, circunstancias personales, metabolismo, etc. Ciertas profesiones quizá lo dificulten más que otras, pero ya que el lavado de cerebro sea removido, esto no tendrá que ser así. Toma los siguientes ejemplos:
 
@@ -1709,7 +1695,7 @@ Otra situación complicada es la del aburrimiento, particularmente cuando es com
 Si tienes una mentalidad positiva, estos dolores de abstinencia se convertirán en momentos de placer. Recuerda, cualquier usuario, sin distinción de edad, sexo, inteligencia o profesión puede encontrar que dejar el porno es fácil y disfrutable, \textbf{dado que sigan todas las instrucciones.}
 
 \hypertarget{razones-principales-por-las-que-puedes-fracasar}{%
-\section{Razones principales por las que puedes fracasar}\label{razones-principales-por-las-que-puedes-fracasar}}
+\subsection{Razones principales por las que puedes fracasar}\label{razones-principales-por-las-que-puedes-fracasar}}
 
 Hay dos razones principales por las que se puede llegar al fracaso. La primera es la influencia de estímulos externos --- un comercial, artículos de internet, búsquedas, etc. Los usuarios llegan a encontrarse a sí mismos en un momento de debilidad, o incluso se ponen celosos cuando ven intimidad en escenarios sociales como una fiesta o reunión. Este tópico ya ha sido discutido extensamente. Usa ese momento para recordarte que no hay tal cosa como una miradita o una visita. Y alégrate en el hecho de que ya has roto la cadena de esclavitud mental. Recuerda que es el usuario el que te envidia y que deberías de sentir pena por ellos, puesto que lo necesitan.
 
@@ -1722,7 +1708,7 @@ Si el trabajo te estresa, piensas, \emph{``En tiempos así hubiera tenido una se
 Recuerda, un enfoque mental positivo es esencial --- siempre.
 
 \hypertarget{sustitutos}{%
-\chapter{Sustitutos}\label{sustitutos}}
+\section{Sustitutos}\label{sustitutos}}
 
 Algunos ejemplos de sustitutos incluyen el restringir tu consumo a revistas pornográficas, imágenes, dietas pornográficas, etc. \textbf{NO USES NINGUNA DE ESTAS OPCIONES. ¡NINGUNA!} Solo harán que el dejar la pornografía te sea más complicado. Si llegas a tener un dolor de abstinencia y usas un sustituto para calmarlo, solo harás que se prolongue el dolor. Lo que realmente le estás diciendo a tu mente es que necesitas porno para saciar ese vacío. Sería como ceder ante un intento de secuestro, o a la rabieta de un niño, solo ocasionando que los dolores vayan y vengan, prolongando la tortura. Sea cual sea la situación, los sustitutos no aliviarán tus dolores. Tu ansia es por aminoácidos en el cerebro, y todo lo que va a ocasionar un sustituto es que sigas pensando en porno. Recuerda estos puntos:
 
@@ -1761,7 +1747,7 @@ Recuerda, las sesiones de porno nunca serán recompensas genuinas. Son el equiva
 Sin embargo, si sigues engañándote a ti mismo con la idea de que una visita a tu \emph{harem en línea} es una verdadera recompensa, o de que necesitas un sustituto, te sentirás privado y miserable. Hay una probabilidad enorme de que termines cayendo en la asquerosa trampa de nuevo. Si en verdad necesitas de un descanso genuino como lo necesitan las amas de casa, los maestros, doctores, o como otros trabajadores necesitan, vas a empezar a disfrutar más estos descansos ya que no tendrás que volverte adicto de nuevo. Recuerda que no necesitas de un sustituto. Los dolores de abstinencia son tu anhelo por dopamina, los cuales pronto serán desvanecidos. Deja que esto sea tu apoyo por los próximos días, y disfruta de deshacer de tu cuerpo y mente la esclavitud y dependencia.
 
 \hypertarget{deberia-evitar-cualquier-situacion-de-tentacion}{%
-\chapter{¿Debería evitar cualquier situación de tentación?}\label{deberia-evitar-cualquier-situacion-de-tentacion}}
+\section{¿Debería evitar cualquier situación de tentación?}\label{deberia-evitar-cualquier-situacion-de-tentacion}}
 
 Cuando te aconsejamos que evites a toda costa el uso de sustitutos, te lo mencionamos más como una instrucción que como una sugerencia; consejo que está respaldado por varias, prácticas razones, las cuales están respaldadas a su vez por cientos casos de estudio. Sin embargo, con la pregunta de si evitar o no involucrarte con tu sexualidad, este no es el caso. Cada usuario debe tomar esa decisión por su cuenta. Sin embargo, podemos compartir dos buenas sugerencias para ayudarte a través de este proceso. Es el miedo a los dolores de abstinencia lo que nos mantienen usando pornografía, por el resto de nuestros días; y este miedo consiste de dos fases distintas:
 
@@ -1798,7 +1784,7 @@ La segunda fase es a largo plazo, involucrando el miedo de que ciertas situacion
 \end{itemize}
 
 \hypertarget{el-momento-de-la-revelacion}{%
-\chapter{El momento de la revelación}\label{el-momento-de-la-revelacion}}
+\section{El momento de la revelación}\label{el-momento-de-la-revelacion}}
 
 Usualmente, dado que haya pasado un lapso de 3 semanas después de haber dejado la pornografía, los ex-usuarios experimentan \emph{el momento de revelación}. El cielo parece tornarse más brillante, y el lavado de cerebro por fin ha sido mitigado. Es cuando, en vez de decirte a ti mismo que no necesitas ver porno, de repente empiezas a darte cuenta de que el último hilo ha sido cortado, y que puedes disfrutar de tu vida sin necesitar de porno nunca más. También es en este punto donde empiezas a ver a los usuarios con pena de nuevo.
 
@@ -1817,7 +1803,7 @@ Es tanto mi experiencia como la de otros que intentaron parar usando su voluntad
 Obvio que no te escabulles a tu harem de nuevo porque no quieres engancharte otra vez, así que dejas que un periodo corto pero seguro pase. Y cuando vuelves a ser tentado, dices \emph{``Bueno, no me enganche otra vez y este período seguro prueba mi argumento. Así que, otra miradita tampoco me hará daño.''} Y otra vez, de vuelta al tobogán. La cosa es que, la clave con el momento de revelación no es esperar el momento de revelación, sino darte cuenta de que una vez cierras tu buscador, ahí se acabó. Dejaste de ser un adicto. Has cortado el suministro de oxígeno del pequeño monstruo. Y no hay fuerza en la tierra que pueda prevenirte de que seas libre de su yugo, {\emph{a menos que te la pases deprimido porque ya has parado o que te quedes esperando el momento de revelación.}} Así que ve, disfruta de tu vida; lidia con ella desde el punto en que cierres el buscador. El momento llegará pronto.
 
 \hypertarget{la-ultima-visita}{%
-\chapter{La última visita}\label{la-ultima-visita}}
+\section{La última visita}\label{la-ultima-visita}}
 
 Habiendo decidido el momento adecuado, ya estarás listo para visitar tu harem por última vez. Pero antes de que lo hagas, considera estos dos elementos esenciales:
 
@@ -1882,7 +1868,7 @@ Ya sea que tengas días buenos o malos, no cambies tu vida solo porque has renun
 \textbf{``¡ESTUPENDO! ¡SOY UN NO-USUARIO!''}
 
 \hypertarget{una-uxfaltima-advertencia}{%
-\section{Una última advertencia}\label{una-uxfaltima-advertencia}}
+\subsection{Una última advertencia}\label{una-uxfaltima-advertencia}}
 
 Ningún usuario, dado que tuviera la oportunidad de volver en el tiempo a momentos antes de engancharse, y con el conocimiento que tiene ahora, optaría por comenzar. Miles y miles de personas, quienes satisfactoriamente dejaron el hábito después de muchos años, llevan vidas perfectamente felices, sólo para ser atrapados por el porno una vez más. Confío en que este libro les ayudará a encontrar relativamente fácil el dejar el porno. Pero te advierto, los usuarios que encuentran sencillo dejarlo, les resulta recíprocamente sencillo empezar de nuevo. \textbf{No caigas en esa trampa.}
 
@@ -1891,7 +1877,7 @@ No importa por cuanto hayas parado o que tan seguro estas de que no te enganchar
 Recuerda, solo \emph{una miradita} o visita no hará nada por ti. Crearás dolores de abstinencia que aliviar y te hará sentir muy mal. Solo pondrás el placer por dopamina devuelta en tu mente y en tu cerebro, además de darle paso al regreso de una pequeña voz en lo profundo de tu mente, que te estará diciendo que \emph{quieres más}. Entonces tendrás la decisión de ser infeliz por un tiempo, o de empezar todo el mugriento ciclo de nuevo.
 
 \hypertarget{retroalimentacion}{%
-\chapter{Retroalimentación}\label{retroalimentacion}}
+\section{Retroalimentación}\label{retroalimentacion}}
 
 La guerra no es en contra de los usuarios, sino en contra de la tramposa industria pornográfica; una guerra que me gusta librar por la simple razón de que la disfruto. Cada vez que escucho acerca de un usuario que está escapando de la prisión obtengo un sentimiento de inmenso placer. Pero este placer no se ha conseguido sin haber pasado primero por una considerable frustración, principalmente causada por dos tipos de usuario. A pesar de la advertencia que puse en capítulos anteriores, sigo continuamente sorprendido por el número de personas que lo encuentran fácil de dejar, y que, aun así, vuelven a engancharse y descubren que no pueden tener éxito la siguiente vez.
 
@@ -1933,7 +1919,7 @@ Si tienes ganas de llorar, que no te dé vergüenza. Llorar es una forma natural
 \end{itemize}
 
 \hypertarget{lista-de-verificaciuxf3n}{%
-\section{Lista de verificación}\label{lista-de-verificaciuxf3n}}
+\subsection{Lista de verificación}\label{lista-de-verificaciuxf3n}}
 
 Es imposible fallar si sigues las siguientes instrucciones:
 
@@ -1956,7 +1942,7 @@ Es imposible fallar si sigues las siguientes instrucciones:
 \end{itemize}
 
 \hypertarget{ayuda-a-aquellos-que-se-estan-hundiendo}{%
-\chapter{Ayuda a aquellos que se están hundiendo}\label{ayuda-a-aquellos-que-se-estan-hundiendo}}
+\section{Ayuda a aquellos que se están hundiendo}\label{ayuda-a-aquellos-que-se-estan-hundiendo}}
 
 El pánico que los usuarios de porno sienten hoy en día sigue creciendo gradualmente, viendo como la percepción de hombres y mujeres respecto a la pornografía va cambiando, para mal. La naturaleza adictiva del porno está siendo estudiada cada vez más a menudo, dado a la diferencia que muchos notan respecto al porno de internet y el porno de antaño. La falta de esfuerzo y la gran disponibilidad para encontrarlo está alarmando hasta a los más empedernidos usuarios de porno. Incluso sienten que su cruzada por \emph{la libertad de expresión y pensamiento} está siendo secuestrada por varios elementos. Este ``salvaje oeste'', un internet sin ley hace casi imposible el hacer cumplir restricciones de edad a este ``estímulo supranormal''. Es desafortunado saber que esto no tendrá fin muy pronto, pero cientos de miles de usuarios ya están dejándolo, con muchos de los más adictos usuarios siendo conscientes de los estudios que muestran similitudes entre la pornografía y el abuso de sustancias. Cada vez que un usuario deja el barco hundiéndose, los que siguen a bordo se sienten incluso más miserables.
 
@@ -1979,10 +1965,10 @@ Muchos son incapaces de dejarlo, y son forzados, sin ser realmente su culpa, a s
 La vieja ansia del `pequeño monstruo' comenzará otra vez, y aún si no se enganchan de inmediato, un período efímero pero agudo de depresión probablemente los enganche de nuevo. Es extraño que, aunque los adictos a la heroína sean criminales de ley, la sociedad sigue respondiendo a sus llamados de auxilio. Hay que adoptar la misma actitud hacia el pobre usuario de pornografía. No lo hacen porque quieran, sino porque piensan que tienen que hacerlo. Y a diferencia del adicto a la heroína, los usuarios de porno usualmente tendrán que sufrir año tras año de tortura mental y física. Siempre decimos que una muerte rápida es mejor que una lenta, así que no envidies al pobre usuario de pornografía. \emph{\textbf{Merecen de tu lástima.}}
 
 \hypertarget{consejos-para-los-no-usuarios}{%
-\chapter{Consejos para los no-usuarios}\label{consejos-para-los-no-usuarios}}
+\section{Consejos para los no-usuarios}\label{consejos-para-los-no-usuarios}}
 
 \hypertarget{ayuda-a-que-tus-compauxf1eros-usuarios-lean-este-libro}{%
-\section{Ayuda a que tus compañeros usuarios lean este libro}\label{ayuda-a-que-tus-compauxf1eros-usuarios-lean-este-libro}}
+\subsection{Ayuda a que tus compañeros usuarios lean este libro}\label{ayuda-a-que-tus-compauxf1eros-usuarios-lean-este-libro}}
 
 Antes que nada, estudia todo el contenido de este libro y trata de ponerte en los zapatos de un usuario. No los fuerces a leer el libro, diciéndoles que están arruinando su salud o que están jugando con fuego. Ellos lo saben mucho mejor que tú. Los usuarios no dejan de usar pornografía porque la disfruten o porque quieran, eso se lo dicen a ellos mismos y a los demás en orden para mantener un poco de respeto por sí mismos. Lo hacen porque son dependientes de ella, porque creen que los relaja, que les da coraje y confianza (placer o apoyo) y porque sienten que la vida nunca será disfrutable sin ``sexo'' --- o al menos, sin la visión de sexo que tienen ellos. Si intentas forzar a un usuario a detenerse, harás que se sienta como un animal enjaulado, deseando aún más su harem. A su vez, eso podría convertirlo en un usuario secreto, haciendo que la pornografía se vuelva todavía más preciada en su mente.
 
@@ -1993,7 +1979,7 @@ Para ese entonces, ya deberían estar listos para leer el libro, a pesar de que 
 En resumen, no dejes que el libro termine aquí. Cuéntaselo a tus amigos, pero no actúes raro sobre esto. Al querer `ganar' en la conversación o debatir con ellos, sólo harás que se cierren al tema, e incrementarás sus miedos.
 
 \hypertarget{deberuxeda-contuxe1rselo-a-mi-pareja}{%
-\section{¿Debería contárselo a mi pareja?}\label{deberuxeda-contuxe1rselo-a-mi-pareja}}
+\subsection{¿Debería contárselo a mi pareja?}\label{deberuxeda-contuxe1rselo-a-mi-pareja}}
 
 \emph{``¿Debería informarle a mi esposa, novia o pareja sobre mi hábito?''} La intención que tienes al decirle es que te ayude a dejarlo, pero hay múltiples factores en juego.
 
@@ -2004,7 +1990,7 @@ Si apenas tomaste consciencia sobre la trampa del porno, y no has intentado dete
 De todas formas, siempre y cuando disfrutes del proceso y no lo encuentres complicado, no hay mucha razón en dejar que tu pareja lo sepa. Si tu consumo no resultaba un problema muy grande en el pasado, déjalo morir sin más. Ah, pero eso sí, ¡prepárate, porque tu pareja empezará a hacer demasiadas preguntas sobre porque te ves, te sientes y te comportas mucho mejor y más reluciente que antes!
 
 \hypertarget{mi-pareja-estuxe1-dejando-la-pornografuxeda}{%
-\section{Mi pareja está dejando la pornografía}\label{mi-pareja-estuxe1-dejando-la-pornografuxeda}}
+\subsection{Mi pareja está dejando la pornografía}\label{mi-pareja-estuxe1-dejando-la-pornografuxeda}}
 
 La pornografía es un perverso destructor de relaciones, y a pesar de que dejarlo puede ser instantáneo, cicatrizar las heridas toma tiempo. Hay muchos usuarios que, debido a las creencias irracionales generadas por su adicción, arremeten su ira contra sus parejas y seres queridos. Estos comportamientos son manifestados en \emph{gaslighting} (abuso psicológico), mentiras y manipulación. Esto no sucede con todos los usuarios, pero es una conducta que comúnmente se incrementa en etapas tardías de la enfermedad. Además de que estos comportamientos manipuladores puedan manifestarse por debajo de la mesa, por lo que es importante que te eduques sobre estos comportamientos y de reconocerlos, considera consultar a un terapeuta especializado en adicciones sexuales.
 
@@ -2019,7 +2005,7 @@ Uno de los tantos trucos que un usuario que está intentando dejar el porno con 
 Y recuerda, hay dos lados de la moneda dentro de este viaje de recuperación. Cuando tu pareja está dejando la pornografía, es importante que TÚ también tengas tu propio sistema de apoyo; que tengas tus momentos y actividades de autocuidado y que pongas límites. Este proceso no ocurre de la noche a la mañana, requiere de confianza, comunicación y rendición de cuentas. Anotar tus observaciones en un diario, desarrollar tus propias pasiones y, lo más importante, ir terapia, ayudan a este proceso.
 
 \hypertarget{resbalones-recauxedda}{%
-\section{Resbalones (recaída)}\label{resbalones-recauxedda}}
+\subsection{Resbalones (recaída)}\label{resbalones-recauxedda}}
 
 La existencia de esta sección debería servir como una advertencia para aquellos que ya abandonaron la trampa. Personalmente, nunca he recaído, pero voy a utilizar experiencias que recopilé a raíz de entrevistas con miembros de la comunidad y algunas herramientas de terapia cognitiva-conductual para ilustrar el tema.
 
@@ -2082,7 +2068,7 @@ Es aquí donde me digo a mí mismo: \emph{``Supongamos que estás obligado a ver
 Con lo anterior, no trato de hacer un lado tus sentimientos, mucho menos de decir algo como \emph{``jaja, yo listo, tú tonto''}, sino de darte perspectiva, para que te des cuenta de lo ridículamente fácil que es (y lo ridículamente fácil que siempre será) superar esta adicción. Ver pornografía no es como un interruptor de encendido/apagado donde dices \emph{``oh, bueno, estoy en X situación, voy a ver porno''}. ¡Eso es una fantasía! ¡Una mentira! ¿Con qué frecuencia te permites beber UN solo vaso de cloro? ¿Nunca? ¿Y por qué? ¡Porque es algo horrible, por eso no bebes cloro! ¿Cómo se supone que escaparás de tu adicción si no te das cuenta de que el ciclo de PMO es algo horrible para ti mismo?
 
 \hypertarget{y-quuxe9-hay-con-el-ciclo-de-mo-masturbaciuxf3n-y-orgasmo}{%
-\section{¿Y qué hay con el ciclo de MO (masturbación y orgasmo)?}\label{y-quuxe9-hay-con-el-ciclo-de-mo-masturbaciuxf3n-y-orgasmo}}
+\subsection{¿Y qué hay con el ciclo de MO (masturbación y orgasmo)?}\label{y-quuxe9-hay-con-el-ciclo-de-mo-masturbaciuxf3n-y-orgasmo}}
 
 La gente ha estado masturbándose por eones sin ningún problema. Y para que quede claro, el porno es el problema.
 
@@ -2109,7 +2095,7 @@ Esta reflexión nace de la especulación, y a pesar de no tener un estricto cono
 Puede que también desees tener relaciones sexuales sin llegar a un orgasmo, como ya te he mencionado, lo cual es una experiencia sexual maravillosa. Puedes fortalecer tu capacidad de retención con ejercicios de Kegel. Por experiencia personal, puedo decirte que la forma más fácil y efectiva de ejercitar la próstata es deteniendo la orina a mitad de la micción. Además, la separación de las partes tántricas y propagativas del sexo resulta ser una de las muchas ventajas de escapar de la trampa del PMO (¡cosa que a mis parejas también les ha encantado!).
 
 \hypertarget{desviaciones-del-aconsejamiento-estuxe1ndar}{%
-\section{Desviaciones del aconsejamiento estándar}\label{desviaciones-del-aconsejamiento-estuxe1ndar}}
+\subsection{Desviaciones del aconsejamiento estándar}\label{desviaciones-del-aconsejamiento-estuxe1ndar}}
 
 Esta sección es nueva y está escrita de manera algo aprensiva; aun así, debe ser mencionada.
 
@@ -2118,7 +2104,7 @@ Algunas personas que utilizaron EasyPeasy se dieron cuenta de que su deseo de ve
 Así que, si ya has estado libre de la trampa durante un buen tiempo y acabas de remover el lavado de cerebro, no hay necesidad de alimentar al pequeño monstruo entonces, ya que podría molestarte. ¡Disfruta de la libertad en su lugar!
 
 \hypertarget{ayuda-a-poner-fin-a-este-escuxe1ndalo}{%
-\section{Ayuda a poner fin a este escándalo}\label{ayuda-a-poner-fin-a-este-escuxe1ndalo}}
+\subsection{Ayuda a poner fin a este escándalo}\label{ayuda-a-poner-fin-a-este-escuxe1ndalo}}
 
 La pornografía en Internet es uno de los peligros de la sociedad libre. Es algo seguro que la base de la civilización --- la razón por la que la especie humana ha avanzado hasta ahora --- está fundamentada en el hecho de que somos capaces de comunicar nuestros conocimientos y experiencias, no solo entre nosotros, sino con las generaciones futuras. Incluso a los animales les resulta necesario advertir a sus hijos de las trampas de la vida.
 
@@ -2143,7 +2129,7 @@ Puedes empezar de esta forma: si ves a alguien luchando con toda su fuerza de vo
 Puede que obtengas una reacción negativa, pero a veces solo basta con que hagas un comentario. Como muchos antes que tú, puedes que llegues a recibir mensajes sorpresa de algunas personas, gratas de haberse librado de la trampa gracias a tu comentario.
 
 \hypertarget{uxfaltima-advertencia}{%
-\section{Última advertencia}\label{uxfaltima-advertencia}}
+\subsection{Última advertencia}\label{uxfaltima-advertencia}}
 
 Ahora puedes disfrutar del resto de tu vida como un no-usuario feliz. Y para asegurarte de que así sea, solo debes seguir estas sencillas instrucciones:
 
@@ -2162,7 +2148,7 @@ Ahora puedes disfrutar del resto de tu vida como un no-usuario feliz. Y para ase
 \end{itemize}
 
 \hypertarget{las-instrucciones}{%
-\chapter{Las instrucciones}\label{las-instrucciones}}
+\section{Las instrucciones}\label{las-instrucciones}}
 
 \begin{itemize}
 \tightlist
@@ -2189,7 +2175,7 @@ Ahora puedes disfrutar del resto de tu vida como un no-usuario feliz. Y para ase
 \end{itemize}
 
 \hypertarget{afirmaciones}{%
-\section{Afirmaciones}\label{afirmaciones}}
+\subsection{Afirmaciones}\label{afirmaciones}}
 
 \begin{itemize}
 \tightlist
@@ -2222,7 +2208,7 @@ Ahora puedes disfrutar del resto de tu vida como un no-usuario feliz. Y para ase
 \end{itemize}
 
 \hypertarget{el-final-de-este-libro}{%
-\chapter{El final de este libro}\label{el-final-de-este-libro}}
+\section{El final de este libro}\label{el-final-de-este-libro}}
 
 Hola, Hackauthor² otra vez. Antes que nada, muchísimas gracias por haber leído este libro. ¡Ser libre se siente increíble, ¿No lo crees?! El libro que el \emph{Hackauthor} original escribió me cambió la vida, y desde entonces mi vida ha ido \emph{viento en popa}. Reitero lo increíble que es el Sr.~Allen Carr, quien ha ayudado a miles de personas a escapar de la trampa de las adicciones.
 
@@ -2243,7 +2229,7 @@ Yo libre del porno ahora que? \textbar\textbar\textbar{} computadora mala lmao m
 EasyPeasy está \emph{lejos} de ser un método perfecto y está siendo lentamente reescrito, a pesar de eso debería de ser un método conciso y claro para poder liberarte de una vez por todas. Estaré combinando algunas lecciones sobre TCC (Terapia conductiva-conductual), otros libros acerca de adicciones y algunos recursos de la comunidad NoFap para poder hacer de este método algo todavía más conciso y entendible. Idealmente, podrías compartir este libro con alguien que tiene nulo conocimiento sobre los efectos dañinos del porno, además de poder educarlos y curarlos de un solo tiro. Estaré ocupado con otros proyectos durante los próximos meses, (como el \url{https://preferences.org.au} y un libro sobre adicción al computador) pero tranquilo, ese libro saldrá tan pronto pueda. No tiene fecha aún (Probablemente, inicios de 2022)
 
 \hypertarget{cuxf3mo-puedo-ayudar-a-easypeasy}{%
-\section{¿Cómo puedo ayudar a EasyPeasy?}\label{cuxf3mo-puedo-ayudar-a-easypeasy}}
+\subsection{¿Cómo puedo ayudar a EasyPeasy?}\label{cuxf3mo-puedo-ayudar-a-easypeasy}}
 
 Si este hackbook te ayudó, puedes hacer algunas cosas extra para contribuir en mi cruzada:
 
@@ -2274,14 +2260,14 @@ Aquí hay un video donde explico que está sucediendo, y aquí está \href{https
 ¡Así mismo, eres bienvenido de enviar esta carta modificada (AUN NO LO HA HECHO) a tu escuela, o de escribir la tuya si lo deseas!
 
 \hypertarget{siguiendo-con-tu-vida}{%
-\section{Siguiendo con tu vida}\label{siguiendo-con-tu-vida}}
+\subsection{Siguiendo con tu vida}\label{siguiendo-con-tu-vida}}
 
 Ya hemos dicho que no deberías cambiar tu vida \textbf{simplemente} porque hayas escapado, y eso es cierto. Sin embargo, la libertad que librarte de cualquier adicción te da te permitirá construir la vida que no sabías qué querías.
 
 Estoy escribiendo un libro sobre romper y dejar atrás la adicción a tu computadora a través del autocrecimiento. Es un libro de mi propia autoría, y tendrá un enfoque muy diferente al de EasyPeasy. Mientras escribo eso, aquí hay algunos recursos que me ayudaron una vez escape de la trampa del porno.
 
 \hypertarget{escape-adicional-de-otras-trampas}{%
-\subsection{Escape adicional de otras trampas}\label{escape-adicional-de-otras-trampas}}
+\subsubsection{Escape adicional de otras trampas}\label{escape-adicional-de-otras-trampas}}
 
 Por favor, ten en cuenta que las siguientes cosas también son adictivas. ¡Si te resulto útil EasyPeasy, por favor, apoya a los autores de estos libros también!
 
@@ -2314,7 +2300,7 @@ Si, los humanos no están construidos para aguantar tanta infinita novedad. Es q
 Lee el libro \emph{Smart Phone, Dumb Phone} de Jhon Dicey (EasyWay), \emph{Diez argumentos para eliminar tus redes sociales ahora mismo y \href{https://www.meta-nomad.net/exiting-modernity}{Escapando de la Modernidad}} de Meta-Nomad.
 
 \hypertarget{cambios-positivos-para-tu-vida}{%
-\subsection{Cambios positivos para tu vida}\label{cambios-positivos-para-tu-vida}}
+\subsubsection{Cambios positivos para tu vida}\label{cambios-positivos-para-tu-vida}}
 
 \emph{\textbf{Relaciones Personales}}
 
@@ -2348,7 +2334,7 @@ Mi pieza de trabajo favorita en el momento es \href{https://www.meta-nomad.net/e
 Finalmente, los consejos dados acá arriba son solo --- consejos. ¿Qué es lo que quieres lograr? Ahora eres libre de esta horrible trampa y puedes usar este regalo para lo que te plazca.
 
 \hypertarget{gracias}{%
-\section{Gracias}\label{gracias}}
+\subsection{Gracias}\label{gracias}}
 
 Otra vez, muchas gracias por darle una oportunidad al libro y leerlo. Espero te haya ayudado, significa mucho para mí. Ahora, las neuronas dentro de tu cerebro se están entrelazando de una manera única, y es importante que sigas permitiendo que así sea. Relee el libro las veces que necesites, mucha gente olvida que remover el lavado de cerebro es --- al menos al inicio --- un proceso activo, y terminan recayendo después de olvidar todas las lecciones. Tomate un momento para hacer un voto solemne, prométete que nunca volverás a ver pornografía, por ninguna razón. No hay ninguna garantía de que este libro funcione dos veces, a pesar de que mucha gente ha comprobado que si puede. Es más fácil mantenerte con la mentalidad que tienes ahora que romperla y volverla a obtener.
 
@@ -2397,7 +2383,7 @@ Fraser Patterson
 p.d: aún hay un capítulo más que contiene algunos recursos extra. Plus, algunas palabras del equipo de traducción.
 
 \hypertarget{algunas-palabras-del-equipo-de-traducciuxf3n}{%
-\section{Algunas palabras del equipo de traducción}\label{algunas-palabras-del-equipo-de-traducciuxf3n}}
+\subsection{Algunas palabras del equipo de traducción}\label{algunas-palabras-del-equipo-de-traducciuxf3n}}
 
 Ola. Dom de nuevo. Gracias por llegar hasta el final de este libro. Esperamos que te haya sido útil.
 
@@ -2433,8 +2419,8 @@ Fuck Moloch .
 \emph{\textbf{Godspeed Nigga.}}
 
 \hypertarget{recursos}{%
-\chapter*{Recursos}\label{recursos}}
-\addcontentsline{toc}{chapter}{Recursos}
+\section*{Recursos}\label{recursos}}
+\addcontentsline{toc}{section}{Recursos}
 
 {\emph{\textbf{NOTA: Muchos de estos recursos (como ya hemos mencionado) están en el idioma inglés. Considera que todavía no tienen una traducción. (Estamos trabajando en ello. c:)}}}
 
@@ -2453,8 +2439,8 @@ Fuck Moloch .
 \href{https://easypeasymethod.org/resources/principal.pdf}{Carta que (Yo, \emph{Hackauthors²}) enviaré a las escuelas \emph{Freedom Forever}} \textbar{} \href{https://sites.google.com/view/freeforever/home}{Notas para aquellos que siguen recayendo en su adicción al porno} \textbar{} \href{https://old.reddit.com/r/pmohackbook/comments/mynwjl/why_youre_relapsing/}{``¿Por qué estás recayendo?'' - Por \emph{u/Different\_Guide\_5205} en \textbf{old.reddit.com}} \textbar{} \href{https://old.reddit.com/r/pmohackbook/comments/n5027n/countering_fear/}{``Contrarrestando el miedo'' - Por \emph{u/Different\_Guide\_5205} en \textbf{old.reddit.com}}
 
 \hypertarget{afirmaciones-para-lidiar-con-tu-adicciuxf3n-basadas-en-el-modelo-de-la-trec-terapia-racional-emotiva-conductual}{%
-\section*{Afirmaciones para lidiar con tu adicción, basadas en el modelo de la TREC (Terapia Racional Emotiva Conductual)}\label{afirmaciones-para-lidiar-con-tu-adicciuxf3n-basadas-en-el-modelo-de-la-trec-terapia-racional-emotiva-conductual}}
-\addcontentsline{toc}{section}{Afirmaciones para lidiar con tu adicción, basadas en el modelo de la TREC (Terapia Racional Emotiva Conductual)}
+\subsection*{Afirmaciones para lidiar con tu adicción, basadas en el modelo de la TREC (Terapia Racional Emotiva Conductual)}\label{afirmaciones-para-lidiar-con-tu-adicciuxf3n-basadas-en-el-modelo-de-la-trec-terapia-racional-emotiva-conductual}}
+\addcontentsline{toc}{subsection}{Afirmaciones para lidiar con tu adicción, basadas en el modelo de la TREC (Terapia Racional Emotiva Conductual)}
 
 \begin{itemize}
 \tightlist
@@ -2489,8 +2475,8 @@ Fuck Moloch .
 \end{itemize}
 
 \hypertarget{combinando-el-muxe9todo-easypeasy-con-la-tuxe9cnica-de-reconocimiento-de-la-voz-adictiva-de-jack-trimpey-trva}{%
-\section*{Combinando el método `EasyPeasy' con la Técnica de Reconocimiento de la Voz Adictiva de Jack Trimpey (TRVA)}\label{combinando-el-muxe9todo-easypeasy-con-la-tuxe9cnica-de-reconocimiento-de-la-voz-adictiva-de-jack-trimpey-trva}}
-\addcontentsline{toc}{section}{Combinando el método `EasyPeasy' con la Técnica de Reconocimiento de la Voz Adictiva de Jack Trimpey (TRVA)}
+\subsection*{Combinando el método `EasyPeasy' con la Técnica de Reconocimiento de la Voz Adictiva de Jack Trimpey (TRVA)}\label{combinando-el-muxe9todo-easypeasy-con-la-tuxe9cnica-de-reconocimiento-de-la-voz-adictiva-de-jack-trimpey-trva}}
+\addcontentsline{toc}{subsection}{Combinando el método `EasyPeasy' con la Técnica de Reconocimiento de la Voz Adictiva de Jack Trimpey (TRVA)}
 
 \emph{Créditos para az\#8773, quien lo propuso en Discord.}
 
