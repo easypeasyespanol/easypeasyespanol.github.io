@@ -1,16 +1,6 @@
 ---
 title: "EasyPeasy (ESPAÑOL)"
-author: "English (original) - by Hackauthor² <br/> translated into <br/>
-[German](de/index.html) // ([PDF](https://easypeasymethod.org/de/easypeasy.pdf)) - by Tim Budweg <br/>
-and <br/>
-[Spanish](https://easypeasyespanol.github.io/) // ([PDF](https://easypeasyespanol.github.io/easypeasyespanol.pdf)),<br/>
-[French](https://drive.google.com/file/d/1eCD_I5xpb8Nl3kMFIxVDNX8KI-WM5zPz/view) // ([PDF](https://gitlab.com/snuggy/easypeasy/-/raw/master/translations/lamethodeeasypeasy.pdf)),<br/>
-[Portuguese](https://metodofacil.org/) // ([PDF](https://gitlab.com/snuggy/easypeasy/-/raw/master/translations/metodofacil.pdf)),<br/>
-[Hungarian](https://sites.google.com/view/jarhatout) // ([PDF](https://gitlab.com/snuggy/easypeasy/-/raw/master/translations/ajarhatout.pdf)),<br/>
-[Arabic](https://gitlab.com/snuggy/easypeasy/-/raw/master/translations/easypeasyar.pdf) // ([PDF](https://gitlab.com/snuggy/easypeasy/-/raw/master/translations/easypeasyar.pdf)),<br/>
-[Turkish](https://neverfapturkiye.com/konu/pornoyu-birakmanin-kolay-yolu.1259/) // ([PDF](https://gitlab.com/snuggy/easypeasy/-/raw/master/translations/easypeasyturkce.pdf))<br/>
-by their respective translators"
-
+author: "Equipo de traducción de EasyPeasy"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 description: "El método EasyPeasy para dejar la pornografía."
