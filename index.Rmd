@@ -1,6 +1,5 @@
 ---
 title: "EasyPeasy (ESPAÑOL)"
-author: "Equipo de traducción de EasyPeasy"
 author: "English (original) - by Hackauthor² <br/> translated into <br/>
 [German](de/index.html) // ([PDF](https://easypeasymethod.org/de/easypeasy.pdf)) - by Tim Budweg <br/>
 and <br/>
