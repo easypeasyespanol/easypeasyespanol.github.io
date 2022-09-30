@@ -46,7 +46,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends apt-utils \
     fontconfig \
     cabextract \
     && \
-  echo "installed base dependencies"
+  echo "installed base dependencies" \
     && \
   
 ########################################################
@@ -69,7 +69,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends apt-utils \
     && \
   echo "installed fonts" \
     && \
-  fc-list
+  fc-list \
     && \
 
 ########################################################
@@ -97,7 +97,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends apt-utils \
     && \
   R -e "install.packages('cowplot',dependencies=NA, repos='http://cran.rstudio.com/')" \
     && \
-  echo "installed r and configured r environment"
+  echo "installed r and configured r environment" \
     && \
 
 ########################################################
