@@ -20,8 +20,8 @@ ENV TZ=America/New_York
 ##############################
 
 RUN apt-get update && apt-get install -y --no-install-recommends apt-utils
+    && \
 
-RUN \
   apt-get update \
     && \
   apt-get install -y -qq --no-install-recommends \
@@ -47,12 +47,12 @@ RUN \
     cabextract \
     && \
   echo "installed base dependencies"
+    && \
   
 ########################################################
 # setup fonts
 # - need the Arial font
 ########################################################
-RUN \
   wget https://www.freedesktop.org/software/fontconfig/webfonts/webfonts.tar.gz \
     && \
   tar -xzf webfonts.tar.gz \
@@ -70,12 +70,12 @@ RUN \
   echo "installed fonts" \
     && \
   fc-list
+    && \
 
 ########################################################
 # install r with whatever r packages we need/want
 # - source: https://rtask.thinkr.fr/installation-of-r-4-0-on-ubuntu-20-04-lts-and-tips-for-spatial-packages/
 ########################################################
-RUN \
   apt-get install -y -q --no-install-recommends \
     r-base \
     r-base-dev \
@@ -98,11 +98,11 @@ RUN \
   R -e "install.packages('cowplot',dependencies=NA, repos='http://cran.rstudio.com/')" \
     && \
   echo "installed r and configured r environment"
+    && \
 
 ########################################################
 # build book
 ########################################################
-RUN \
   cd /opt/easypeasyespanol.github.io \
     && \
   Rscript -e "install.packages('tinytex')" \
