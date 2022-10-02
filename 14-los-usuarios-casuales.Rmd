@@ -1,6 +1,6 @@
 # Los usuarios casuales {#los-usuarios-casuales}
 
-Los usuarios más frecuentes tienden a envidiar al usuario "casual". Ya sabes de cuál hablo: _"no me molesta pasar toda una semana sin tener una sesión"_. Esto puede ser difícil de creer, pero ningún usuario disfruta de ser un usuario. Nunca olvides que: 
+Los usuarios más frecuentes tienden a envidiar al usuario "casual". Ya sabes de cuál hablo: _"no me molesta pasar toda una semana sin tener una sesión"_. Esto puede ser difícil de creer, pero ningún usuario disfruta de ser un usuario. Nunca olvides que:
 
 1. _Ningún usuario decidió convertirse en un usuario, en ningún tipo de usuario, por lo tanto_
 2. _Todos los usuarios se sienten estúpidos, por lo tanto_
