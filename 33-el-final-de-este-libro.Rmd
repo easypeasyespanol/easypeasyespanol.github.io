@@ -20,7 +20,7 @@ EasyPeasy está _lejos_ de ser un método perfecto y está siendo lentamente ree
 
 Si este hackbook te ayudó, puedes hacer algunas cosas extra para contribuir en mi cruzada:
 
-**Mejora el libro.** EasyPeasy es un documento de fuente abierta y está escrito en _R Markdown_. Si puedes agregar una mejora, es muy fácil cambiar el documento y puedes encontrar una guía en vídeo sobre cómo hacerlo aquí: <span style="text-decoration:underline">Fraser no lo ha hecho aún</span>
+**Mejora el libro.** EasyPeasy es un documento de fuente abierta y está escrito en _R Markdown_. Si puedes agregar una mejora, es muy fácil cambiar el documento y puedes encontrar una guía en video sobre cómo hacerlo aquí: <span style="text-decoration:underline">Fraser no lo ha hecho aún</span>
 
 **¡Tradúcelo!** Es imposible expresar mi increíble gratitud hacia la gente dispuesta a traducir este libro y ayudar a librar más usuarios. Aquí hay una guía completa en video sobre cómo configurar RStudio y publicar una traducción: <span style="text-decoration:underline">Fraser no lo ha hecho aún</span>
 
