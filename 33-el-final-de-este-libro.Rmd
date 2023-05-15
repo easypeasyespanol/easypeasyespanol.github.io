@@ -1,6 +1,6 @@
 # El final de este libro {#el-final-de-este-libro}
 
-Hola, Hackauthor² otra vez. Antes que nada, muchísimas gracias por haber leído este libro. ¡¿Ser libre se siente increíble, ¿no lo crees?! El libro que el _Hackauthor_ original escribió me cambió la vida, y desde entonces mi vida ha ido _viento en popa_. Reitero lo increíble que es el Sr. Allen Carr, quien ha ayudado a miles de personas a escapar de la trampa de las adicciones.
+Hola, Hackauthor² otra vez. Antes que nada, muchísimas gracias por haber leído este libro. ¡¿Ser libre se siente increíble, no lo crees?! El libro que el _Hackauthor_ original escribió me cambió la vida, y desde entonces mi vida ha ido _viento en popa_. Reitero lo increíble que es el Sr. Allen Carr, quien ha ayudado a miles de personas a escapar de la trampa de las adicciones.
 
 Un mensaje de Fraser Patterson, Hackauthor² mismo (está en inglés, y no tiene traducción aún):
 
@@ -12,9 +12,9 @@ knitr::include_url("https://www.youtube.com/embed/mYDHeb-ax3k")
 
 **Mensaje hipercomunicativo** para tratar de entrar en tu cabeza:
 
-¿Yo libre del porno ahora qué? ||| computadora mala lmao muhhh, sal a tomar el sol. Chatea con amigos irl en vez de chatear con extraños en línea (preferiblemente, en persona) << discord, Reddit, videojuegos, etc. te hacen más solitario debido a que la falta de habilidades sociales está matando el ciclo de retroalimentación + desensitización de dopamina >> // encuentra cosas más importantes por las que preocuparte, cambia el mundo a tu alrededor en vez de quejarte de él — ¡puedes lograr muchas cosas, especialmente con amigos! ¡Ninguna revolución empieza de arriba hacia abajo — los cambios empiezan contigo! Haz campañas locales para erradicar problemas que te preocupen || otras trampas adictivas: nicotina, alcohol (sí, hay mucho lavado de cerebro que cubrir ahí, y NINGÚN beneficio), cafeína, redes sociales y tecnología. Deja de ser un _zoomer_ que vive de consumir TikTok, que juega Fortnite mientras construye puertas y vuela cabezas con una AWP. Empieza a hacer cosas buenas. Pasa un poco de tiempo de calidad con tus seres más queridos, necesitas tener propósito, aprende a ser un guía y adquiere dedicación, medita, levanta pesas, se emocionalmente vulnerable en tus relaciones, y deja de consumir mucho. Besitos
+¿Yo libre del porno ahora qué? ||| computadora mala lmao muhhh, sal a tomar el sol. Chatea con amigos irl en vez de chatear con extraños en línea (preferiblemente, en persona) << discord, Reddit, videojuegos, etc. te hacen más solitario debido a que la falta de habilidades sociales está matando el ciclo de retroalimentación + desensitización de dopamina >> // encuentra cosas más importantes por las que preocuparte, cambia el mundo a tu alrededor en vez de quejarte de él — ¡puedes lograr muchas cosas, especialmente con amigos! ¡Ninguna revolución empieza de arriba hacia abajo — los cambios empiezan contigo! Haz campañas locales para erradicar problemas que te preocupen || otras trampas adictivas: nicotina, alcohol (sí, hay mucho lavado de cerebro que cubrir ahí, y NINGÚN beneficio), cafeína, redes sociales y tecnología. Deja de ser un _zoomer_ que vive de consumir TikTok, que juega Fortnite mientras construye puertas y vuela cabezas con una AWP. Empieza a hacer cosas buenas. Pasa un poco de tiempo de calidad con tus seres más queridos, necesitas tener propósito, aprende a ser un guía y adquiere dedicación, medita, levanta pesas, sé emocionalmente vulnerable en tus relaciones, y deja de consumir mucho. Besitos
 
-EasyPeasy está _lejos_ de ser un método perfecto y está siendo lentamente reescrito, a pesar de eso debería de ser un método conciso y claro para poder liberarte de una vez por todas. Estaré combinando algunas lecciones sobre TCC (Terapia conductiva-conductual), otros libros acerca de adicciones y algunos recursos de la comunidad NoFap para poder hacer de este método algo todavía más conciso y entendible. Idealmente, podrías compartir este libro con alguien que tiene nulo conocimiento sobre los efectos dañinos del porno, además de poder educarlos y curarlos de un solo tiro. Estaré ocupado con otros proyectos durante los próximos meses, (como el https://preferences.org.au y un libro sobre adicción a la computadora) pero tranquilo, ese libro saldrá tan pronto pueda. No tiene fecha aún (probablemente, inicios de 2022)
+EasyPeasy está _lejos_ de ser un método perfecto y está siendo lentamente reescrito, a pesar de eso debería de ser un método conciso y claro para poder liberarte de una vez por todas. Estaré combinando algunas lecciones sobre TCC (terapia conductiva-conductual), otros libros acerca de adicciones y algunos recursos de la comunidad NoFap para poder hacer de este método algo todavía más conciso y entendible. Idealmente, podrías compartir este libro con alguien que tiene nulo conocimiento sobre los efectos dañinos del porno, además de poder educarlos y curarlos de un solo tiro. Estaré ocupado con otros proyectos durante los próximos meses, (como el https://preferences.org.au y un libro sobre adicción a la computadora) pero tranquilo, ese libro saldrá tan pronto pueda. No tiene fecha aún (probablemente, inicios de 2022)
 
 ## ¿Cómo puedo ayudar a EasyPeasy?
 
@@ -55,7 +55,7 @@ El tema original del _EasyWay_ era la adicción al cigarro, posteriormente al _v
 
 _**Alcohol**_
 
-Todas las personas que conozco, incluyéndome, me hubieran considerado en algún punto como un bebedor casual. El alcohol nunca me causo problemas, pero decidí que para finales del 2020 dejaría el alcohol, solo por un año, les decía a mis amigos, _"hay una buena cantidad de tiempo en el futuro para beber, así que, ¿por qué no recortar la bebida de mis relaciones desde el inicio?"_ Después de discutir el método EasyPeasy con uno de mis mentores universitarios, le recomendé el libro _Deja la bebida... fácilmente_ de Jason Vale (colega de Allen Carr), el cual lo ayudó muchísimo (mientras experimentaba el alcoholismo). Decidí darle una leída para ayudar a un amigo que se encontraba en el mismo bote.
+Todas las personas que conozco, incluyéndome, me hubieran considerado en algún punto como un bebedor casual. El alcohol nunca me causó problemas, pero decidí que para finales del 2020 dejaría el alcohol, solo por un año, les decía a mis amigos, _"hay una buena cantidad de tiempo en el futuro para beber, así que, ¿por qué no recortar la bebida de mis relaciones desde el inicio?"_ Después de discutir el método EasyPeasy con uno de mis mentores universitarios, le recomendé el libro _Deja la bebida... fácilmente_ de Jason Vale (colega de Allen Carr), el cual lo ayudó muchísimo (mientras experimentaba el alcoholismo). Decidí darle una leída para ayudar a un amigo que se encontraba en el mismo bote.
 
 Así como _EasyPeasy, Deja la bebida... Fácilmente_ no te impone presión, por lo que empecé a leer el libro sin tener la necesidad de dejar el alcohol realmente — solo quería aclarar algunas consideraciones. Después de leerlo, puedo decir con certeza que _nunca volveré a beber_ y estoy orgulloso de ser un no-bebedor. Para resumir (sin hacer justicia al libro entero) el alcohol tiene un período de abstinencia de 10 días, el cual es reforzado gracias a que la mayoría de la gente toma cada fin de semana. Así como no existe tal cosa como un adicto al porno — solo grados de adicción que varían — no existen alcohólicos. El admitir que no estás en control solo te impone más miedo, además de que te etiquetas públicamente como un 'alcohólico', lo cual hace que pases tu adicción por alto.
 
@@ -73,19 +73,19 @@ Las redes sociales están hechas para asimilarse a una maquinita de monedas. Se 
 
 Como todo usuario de redes sociales, has sido atraído a la más siniestra, sutil trampa que el hombre y la naturaleza han ideado (la trampa de la adicción). Reflexiona de nuevo, ¿cuándo fue la última vez que tomaste la decisión consciente y positiva de que necesitabas de las redes sociales, de que las necesitabas permanentemente en tu vida, sintiéndote inseguro y ansioso si no tienes acceso a ella?
 
-Sí, los humanos no están construidos para aguantar tanta infinita novedad. Es químicamente adictivo, y hay una cantidad inmensa de mejores cosas que hacer con tu tiempo. Siempre ten en mente lo que se puede lograr al enfocar tu atención, hacer campañas locales sobre problemas que te importen, como la sustentabilidad, la educación sexual, entre otras cosas. Nunca te quejes de tu vida, sé proactivo y pregúntate a ti mismo cómo es que vas a influenciar al mundo a tu alrededor. Recuerda, ¿hay alguna revolución que haya empezado de arriba hacia abajo? – el cambio empieza contigo.
+Sí, los humanos no están construidos para aguantar tanta infinita novedad. Es químicamente adictivo, y hay una cantidad inmensa de mejores cosas que hacer con tu tiempo. Siempre ten en mente lo que se puede lograr al enfocar tu atención, hacer campañas locales sobre problemas que te importen, como la sustentabilidad, la educación sexual, entre otras cosas. Nunca te quejes de tu vida, sé proactivo y pregúntate a ti mismo cómo es que vas a influenciar al mundo a tu alrededor. Recuerda, ¿hay alguna revolución que haya empezado de arriba hacia abajo? — el cambio empieza contigo.
 
-Lee el libro _Smart Phone, Dumb Phone_ de Jhon Dicey (EasyWay), _Diez argumentos para eliminar tus redes sociales ahora mismo y [Escapando de la Modernidad](https://www.meta-nomad.net/exiting-modernity)_ de Meta-Nomad.
+Lee el libro _Smart Phone, Dumb Phone_ de John Dicey (EasyWay), _Diez argumentos para eliminar tus redes sociales ahora mismo y [Escapando de la Modernidad](https://www.meta-nomad.net/exiting-modernity)_ de Meta-Nomad.
 
 ### Cambios positivos para tu vida
 
-_**Relaciones Personales**_
+_**Relaciones personales**_
 
 Librarte de la pornografía puede dejarte con varias preguntas acerca de tus relaciones. Si estás teniendo problemas para tener citas o problemas de pareja — e incluso si no los tienes — **recomiendo fuertemente** el libro Modelos de Mark Manson, el cual discute la vulnerabilidad en las relaciones. Estoy igualmente feliz de no caer en la trampa del artista del ligue o del _incel_, ni siquiera son formas sanas de relacionarse.
 
 _**Falta de visión**_
 
-Si tienes miopía (no puedes ver a distancias largas), es totalmente curable. Sin cirugía laser, ni ejercicios oculares ni vitaminas mágicas para el ojo. Solo tienes que retener el musculo de tu ojo usando esto que llamamos enfoque activo. La miopía se genera gracias al abrir y cerrar tus ojos de forma excesiva, y ponerte lentes solo hace que tus ojos se hagan más débiles, repitiendo el ciclo. La optometría es no irónicamente (casi) una farsa, y estos especialistas saben que esto esta pasando (hay documentos sobre ventas que fueron sacados al público, además de que hay una extensa cantidad de estudios académicos al respecto). Mi compañero [Lance Kozma](https://www.youtube.com/channel/UCLvkYd7iYVcsp1Ax6Zm1xIg) (tipazo, chécalo) recomienda el libro _La miopía es mental_, dice que _Endmyopia_ utiliza tu tendencia a pasar tu ojo de una información a otra, así que el truco es redirigir esa energía a obtener información ocular. Quizá sea útil si tienes problema para entender el concepto de enfoque activo. No tengo conocimiento en el tema porque mis ojos están bien.
+Si tienes miopía (no puedes ver a distancias largas), es totalmente curable. Sin cirugía laser, ni ejercicios oculares ni vitaminas mágicas para el ojo. Solo tienes que retener el músculo de tu ojo usando esto que llamamos enfoque activo. La miopía se genera gracias al abrir y cerrar tus ojos de forma excesiva, y ponerte lentes solo hace que tus ojos se hagan más débiles, repitiendo el ciclo. La optometría es no irónicamente (casi) una farsa, y estos especialistas saben que esto está pasando (hay documentos sobre ventas que fueron sacados al público, además de que hay una extensa cantidad de estudios académicos al respecto). Mi compañero [Lance Kozma](https://www.youtube.com/channel/UCLvkYd7iYVcsp1Ax6Zm1xIg) (tipazo, chécalo) recomienda el libro _La miopía es mental_, dice que _Endmyopia_ utiliza tu tendencia a pasar tu ojo de una información a otra, así que el truco es redirigir esa energía a obtener información ocular. Quizá sea útil si tienes problema para entender el concepto de enfoque activo. No tengo conocimiento en el tema porque mis ojos están bien.
 
 _**Meditación**_
 
@@ -110,7 +110,7 @@ Finalmente, los consejos dados acá arriba son solo — consejos. ¿Qué es lo q
 
 ## Gracias
 
-Otra vez, muchas gracias por darle una oportunidad al libro y leerlo. Espero te haya ayudado, significa mucho para mí. Ahora, las neuronas dentro de tu cerebro se están entrelazando de una manera única, y es importante que sigas permitiendo que así sea. Relee el libro las veces que necesites, mucha gente olvida que remover el lavado de cerebro es — al menos al inicio — un proceso activo, y terminan recayendo después de olvidar todas las lecciones. Tómate un momento para hacer un voto solemne, prométete que nunca volverás a ver pornografía, por ninguna razón. No hay ninguna garantía de que este libro funcione dos veces, a pesar de que mucha gente ha comprobado que si puede. Es más fácil mantenerte con la mentalidad que tienes ahora que romperla y volverla a obtener.
+Otra vez, muchas gracias por darle una oportunidad al libro y leerlo. Espero te haya ayudado, significa mucho para mí. Ahora, las neuronas dentro de tu cerebro se están entrelazando de una manera única, y es importante que sigas permitiendo que así sea. Relee el libro las veces que necesites. Mucha gente olvida que remover el lavado de cerebro es — al menos al inicio — un proceso activo, y terminan recayendo después de olvidar todas las lecciones. Tómate un momento para hacer un voto solemne, prométete que nunca volverás a ver pornografía, por ninguna razón. No hay ninguna garantía de que este libro funcione dos veces, a pesar de que mucha gente ha comprobado que si puede. Es más fácil mantenerte con la mentalidad que tienes ahora que romperla y volverla a obtener.
 
 Si llegaras a recaer, aquí hay una [ruta de escape] que publiqué en Discord hace poco (estos recursos están en inglés):
 
@@ -121,7 +121,7 @@ Sigue los siguientes pasos en orden.
 * Lee el post [Libertad por siempre](https://sites.google.com/view/freeforever/home) de u/Different_Guide_5205
 * Opcional: Mira el episodio 5 de _"Hot Girls Wanted: Turned On"_ en Netflix, titulado _Llévame a un lugar privado_ (Este es opcional, ya que verás un poco de desnudos. A tu criterio)
 
-Y el punto más importante: recuerda que estás intelectualizando usar un argumento irracional porque tienes miedo. 
+Y el punto más importante: recuerda que estás intelectualizando usar un argumento irracional porque tienes miedo.
 
 [Fin de la ruta de escape]
 
@@ -135,7 +135,7 @@ _**(Estas páginas están en inglés)**_
 
 También puedes encontrarme en [YouTube](https://www.youtube.com/channel/UChMZhvS7eV-WoLDu_mRjEEw), donde la retroalimentación es bien recibida.	
 
-Si tienes problemas para aplicar lo aprendido, lo mejor que puedes hacer es publicar tus preguntas en Discord o en el Subreddit de EasyPeasy, donde encontrarás una comunidad de apoyo que estará feliz de responder todas tus dudas. Esta comunidad, aunque lentamente, se mudará en favor de Urbit, el cual es un remplazo de comunidad para el internet mismo. Suena a una locura, pero es verdad. Si puedes, por favor [ve este video, donde explico qué está pasando.](https://www.youtube.com/watch?v=vMZrrDzKOZo)
+Si tienes problemas para aplicar lo aprendido, lo mejor que puedes hacer es publicar tus preguntas en Discord o en el subreddit de EasyPeasy, donde encontrarás una comunidad de apoyo que estará feliz de responder todas tus dudas. Esta comunidad, aunque lentamente, se mudará en favor de Urbit, el cual es un remplazo de comunidad para el internet mismo. Suena a una locura, pero es verdad. Si puedes, por favor [ve este video, donde explico qué está pasando.](https://www.youtube.com/watch?v=vMZrrDzKOZo)
 
 Si gustas contactarme, por favor ten en cuenta que estoy tratando de ser intencionalmente difícil de alcanzar. Si tienes una oferta, oportunidad o introducción que haría de mi vida algo más interesante, por favor envía un e-mail a interesting@easypeasymethod.org, o mándame un mensaje en Urbit a _~mislyr-midnyt_. Por las razones que acabo de mencionar, solo estaré respondiendo a las propuestas que se acomoden a mi itinerario e intereses.  
 Si gustas también puedes  
@@ -159,7 +159,7 @@ Ya no tienes la venda encima. Y ahora que puedes ver con claridad, pregúntate: 
 
 https://www.bitchute.com/video/SCStmu3WPLIk/
 
-Ya conoces la trampa. Un adicto pierde su propia fuerza para no responder a sus impulsos. ¿Entonces, que tal si eso es lo que quiere el dealer? ¿Qué tal si el _dealer_ no gana económicamente, si no psicológicamente, degenerando una sociedad completa?
+Ya conoces la trampa. Un adicto pierde su propia fuerza para no responder a sus impulsos. ¿Entonces, qué tal si eso es lo que quiere el dealer? ¿Qué tal si el _dealer_ no gana económicamente, si no psicológicamente, degenerando una sociedad completa?
 
 Toma esta reflexión como quieras. Reitero nuestro agradecimiento por llegar al final. Si gustas ayudarnos a mejorar esta traducción, si tienes alguna duda o si solo gustas dejar un comentario, te pedimos por favor nos contactes a través de este correo:  
 nono.ficial.realwokenibba@gmail.com
